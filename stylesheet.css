@@ -176,6 +176,7 @@ body {
     position: fixed;
     right: 0;
     top: 0;
+	border-bottom: 1px solid black;
 }
 
 /* Style the header */
@@ -228,7 +229,6 @@ body {
 	width: 100%;
 	transition: 0.3s;
 	z-index: 1000;
-	border-bottom: 2px solid black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -314,7 +314,7 @@ footer {
 	font-size: 12px; 
 	text-align: center; 
 	background: lightgrey;
-	color: #02356a;
+	color: black;
 	position: absolute;
 }
 
@@ -415,7 +415,7 @@ footermedia {
 		font-size: 10px; 
 		text-align: center; 
 		background: lightgrey;
-		color: #02356a;
+		color: black;
 	}
 	bottom {
 		display: none; 
