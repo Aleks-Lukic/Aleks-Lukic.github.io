@@ -157,7 +157,7 @@ html {
 	position: relative;
 }
 body {
-	font-family: "Arial";
+	font-family: "Barlow-Black";
 	height: 100%; 
 	width: 100%;
 	overflow: auto;
@@ -182,7 +182,7 @@ body {
 /* Style the header */
 #header {
 	float: left;
-	font-family: "Baskervville";
+	font-family: "Barlow-Black";
 	text-align: center;
 	font-size: 26px;
 	overflow: hidden;
@@ -221,7 +221,7 @@ body {
 /* Create three columns/boxes that float next to each other */
 #nav {
 	float: left;
-	font-family: "Baskervville";
+	font-family: "Barlow-Black";
 	text-align: center;
 	font-size: 20px;
 	overflow: hidden;
@@ -332,7 +332,7 @@ footermedia {
 	text-align: left;
 	outline: none;
 	transition: 0.4s;
-	font-family:"Arial";
+	font-family:"Barlow-Black";
 	margin-top: 5px;
 }
 .active {
