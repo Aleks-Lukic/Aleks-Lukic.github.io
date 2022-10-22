@@ -35,7 +35,7 @@ h3 {
 }
 
 h3.two {
-	font-size: 16px;
+	font-size: 22px;
 	padding: 0;
 }
 
@@ -169,9 +169,20 @@ body {
 	overflow-y: scroll;
 }
 
-#gradbackground {
-	background-image: linear-gradient(to top, rgba(139,214,158, 0.73), white);
+#gradbackground.one {
+	background-image: url("resources/shelter.png"); /*linear-gradient(to top, rgba(139,214,158, 0.3), white);*/
+	/*background-color: rgba(46,131,54, 0.15);*/
 	height: 100vh;
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+#gradbackground.two {
+	/*background-image: linear-gradient(to bottom, rgba(139,214,158, 0.3), white);*/
+	background-color: rgba(113,132,83, 0.15);
+	height: 100%;
+	position: absolute;
 }
 
 #holder {
@@ -185,18 +196,19 @@ body {
 #imageholder.one {
 	width: 50%;
 	background-image: 
-	linear-gradient(to left, rgba(46,131,54, 0.73), white), 
+	linear-gradient(to left, rgba(46,131,54, 0.5), white), 
 	url("resources/Sava_Mila.jpg");
 	height: 100vh; 
 	position: relative;
 	float: left;
+	z-index: -99;
 }
 
 #imageholder.two {
 	width: 50%;
 	background-image: 
-	linear-gradient(to right, rgba(46,131,54, 0.73), white), 
-	url("resources/Sava_Mila.jpg");
+	linear-gradient(to right, rgba(46,131,54, 0.5), white), 
+	url("resources/117168084_1178110172563072_6531715487445287405_n_copy.jpg");
 	height: 100vh; 
 	position: relative;
 	float: left;
@@ -232,7 +244,6 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	color: #233A59
 	/*position: absolute;*/
 }
 
@@ -287,6 +298,24 @@ body {
 	position: relative;
 	top: 50%;
 	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.centerright {
+	margin: 0;
+	position: relative;
+	top: 50%;
+	left: 40%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.centerleft {
+	margin: 0;
+	position: relative;
+	top: 50%;
+	left: 60%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
