@@ -157,39 +157,68 @@ html {
 	position: relative;
 }
 body {
-	font-family: "Barlow-Black";
+	font-family: "Signika";
 	height: 100%; 
 	width: 100%;
 	overflow: auto;
 	margin: 0px;
 	padding: 0px;
-	background-color: white;  
 	background-attachment: fixed;
 	position: relative;
 	min-height: 100%;
 	overflow-y: scroll;
 }
 
-#holder {
-	background-color: white;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-	border-bottom: 1px solid black;
+#gradbackground {
+	background-image: linear-gradient(to top, rgba(139,214,158, 0.73), white);
+	height: 100vh;
 }
+
+#holder {
+    left: 0;
+    right: 0;
+	position: absolute;
+    top: 0;
+	border-bottom: 1px;
+}
+
+#imageholder.one {
+	width: 50%;
+	background-image: 
+	linear-gradient(to left, rgba(46,131,54, 0.73), white), 
+	url("resources/Sava_Mila.jpg");
+	height: 100vh; 
+	position: relative;
+	float: left;
+}
+
+#imageholder.two {
+	width: 50%;
+	background-image: 
+	linear-gradient(to right, rgba(46,131,54, 0.73), white), 
+	url("resources/Sava_Mila.jpg");
+	height: 100vh; 
+	position: relative;
+	float: left;
+}
+
+#textholder {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+
 
 /* Style the header */
 #header {
 	float: left;
-	font-family: "Barlow-Black";
+	font-family: "Signika";
 	text-align: center;
 	font-size: 26px;
 	overflow: hidden;
 	height: auto; 
 	width: 100%;
-	transition: 0.3s;
-	z-index: 1000;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -221,17 +250,16 @@ body {
 /* Create three columns/boxes that float next to each other */
 #nav {
 	float: left;
-	font-family: "Barlow-Black";
+	font-family: "Signika";
 	text-align: center;
 	font-size: 20px;
 	overflow: hidden;
 	height: auto; 
 	width: 100%;
-	transition: 0.3s;
-	z-index: 1000;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: 0.3s;
 }
 #nav:hover { 
 	transform: translateX(0px) translateY(-1px) scale(1.05);
@@ -239,26 +267,27 @@ body {
 }
 #article {
 	float: left;
-	width: 60%;
-	background-color: white;
+	width: 100%;
 	font-size: 17px;
-	min-height: 100vh;
-	transition: 0.3s;
-	padding-top: 110px;
-	margin-left: 20%;
-	margin-right: 20%;
-	z-index: 10;
+
 	/*border-left: 2px solid white;
 	border-right: 2px solid white;*/
 }
 #text {
 	/*position: relative;*/
-	padding: 1rem;
 	width: auto;
 	height: auto;
-	background-color: #b3cde01a;
 	text-align: left; /* justify */
 	bottom: 2.5rem;
+}
+
+.center {
+	margin: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 social {
@@ -332,7 +361,7 @@ footermedia {
 	text-align: left;
 	outline: none;
 	transition: 0.4s;
-	font-family:"Barlow-Black";
+	font-family: "Signika";
 	margin-top: 5px;
 }
 .active {

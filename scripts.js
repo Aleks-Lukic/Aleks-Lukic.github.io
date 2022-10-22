@@ -1,4 +1,4 @@
-
+/*
 // Accordion menu script
 
 var acc = document.getElementsByClassName("accordion");
@@ -23,9 +23,11 @@ for (i = 0; i < acc.length; i++) {
 
 window.onscroll = function() {
 	scrollFunction()
-	/*scrollFunction2()*/
+	/*scrollFunction2()*//*
 };
+*/
 
+/*
 function scrollFunction() {
 	if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
 		document.getElementById("header").style.fontSize = "10px";
@@ -38,7 +40,7 @@ function scrollFunction() {
 		document.getElementById("article").style.paddingTop = "65px";
 	}
 }
-
+*/
 /*
 function scrollFunction2() {
 	if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
