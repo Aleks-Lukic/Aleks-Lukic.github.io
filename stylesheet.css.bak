@@ -5,7 +5,7 @@
 /* href link style */
 a {
 	text-decoration: none; 
-	color: black;
+	color: white;
 }
 
 a.two {
@@ -170,7 +170,7 @@ body {
 }
 
 #gradbackground.one {
-	background-image: url("resources/shelter.png"); /*linear-gradient(to top, rgba(139,214,158, 0.3), white);*/
+	background-image: url("resources/beach-g5d88068ca_1920.jpg"); /*linear-gradient(to top, rgba(139,214,158, 0.3), white);*/
 	/*background-color: rgba(46,131,54, 0.15);*/
 	height: 100vh;
 	width: 100%;
@@ -194,20 +194,19 @@ body {
 }
 
 #imageholder.one {
-	width: 50%;
+	width: 60%;
 	background-image: 
-	linear-gradient(to left, rgba(46,131,54, 0.5), white), 
+	linear-gradient(to left, rgba(9,104,199, 0.3), white), 
 	url("resources/Sava_Mila.jpg");
 	height: 100vh; 
 	position: relative;
 	float: left;
-	z-index: -99;
 }
 
 #imageholder.two {
-	width: 50%;
+	width: 60%;
 	background-image: 
-	linear-gradient(to right, rgba(46,131,54, 0.5), white), 
+	linear-gradient(to right, rgba(9,104,199, 0.3), white), 
 	url("resources/117168084_1178110172563072_6531715487445287405_n_copy.jpg");
 	height: 100vh; 
 	position: relative;
@@ -215,7 +214,7 @@ body {
 }
 
 #textholder {
-	width: 50%;
+	width: 40%;
 	height: auto;
 	float: left;
 }
@@ -244,6 +243,7 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 0;
+	color: white;
 	/*position: absolute;*/
 }
 

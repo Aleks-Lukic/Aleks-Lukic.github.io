@@ -17,56 +17,52 @@
 
 <body>
     <section>
-		<div id = "gradbackground" class = "one">
-			<div id = "holder">
-				<div id = "header">
-					<h1>
-						<div id = "textdefault">&nbsp;W&nbsp;A&nbsp;Y&nbsp;S&nbsp;&nbsp;&nbsp;T&nbsp;O&nbsp;&nbsp;&nbsp;H&nbsp;E&nbsp;L&nbsp;P&nbsp;</div>
-						
-					</h1><br><br><br>
-				</div>
+		<div id = "text" style="height:100vh;">
+		
+			<div id = "textholder" style="height:100vh; width:60%; border-bottom: solid grey">
+				<div class="centerleft" style="left:60%; top:40%">
+					<p>
+						<div id = "holder">
+							<div id = "header">
+								<h1>
+									<div id = "textdefault" style="color:black;">&nbsp;W&nbsp;A&nbsp;Y&nbsp;S&nbsp;&nbsp;&nbsp;T&nbsp;O&nbsp;&nbsp;&nbsp;H&nbsp;E&nbsp;L&nbsp;P&nbsp;</div>
+									<img src="../resources/SS_LOGO_transparent.png" style="width:15%;">
+								</h1><br>
+							</div>
 
-				<div id = "nav">
-					<div id = "textdefault">
-						<a href = "https://www.savashelter.org">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href = "https://www.savashelter.org/mission">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href = "https://www.savashelter.org/help">Ways to help</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href = "https://www.savashelter.org/contact">Connect with us</a>
-					</div>
+							<div id = "nav">
+								<div id = "textdefault">
+									<a href = "https://www.savashelter.org" style="color:black;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/mission" style="color:black;">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/help" style="color:black;">Ways to help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/contact" style="color:black;">Connect with us</a>
+								</div>
+							</div>
+						</div>
+					</p>
 				</div>
 			</div>
 			
-			<div id = "text" style="height:100vh;">
-				<div class="center">
-					<p style="font-size:32px; color: #233A59;">A new Hope for Stray Dogs in Bosnia</p>
-				</div>
-			</div>
+			<div id = "imageholder" class = "one" style="width:40%; border-bottom: solid grey"></div>
 			
 		</div>
 
 
-
-        <div id = "article">
-			<div style="padding: .5rem; background-color: white;">
-				<div id = "text" style="padding: 1rem; background-color: transparent;">
-					
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-
+        <div id = "article" style="min-height:100vh;">
+			<div id = "text">
+				<div id = "textholder" style="width: 30%; margin-left:35%; margin-right:35%; font-size: 22px;">
+					<br><br>
+					<p style="font-size: 32px;">Bank details</p> <br>
+					Sava Shelter e.V.<br>
+					IBAN DE41 8306 5408 0005 2714 52<br>
+					BIC	GENODEF1SLR<br><br>
+					<br><br>
+					GoFundMe<br>
+					<a href = "https://gofund.me/6999d83c" style="color:blue;">https://gofund.me/6999d83c</a><br><br>
+					<br><br>
+					PayPal<br>
+					<a href = "mailto:contact@savashelter.org" style="color:blue;">contact@savashelter.org</a><br>
+					<br><br><br><br>
 				</div>
 			</div>
         </div>
@@ -82,6 +78,7 @@
         © 2022 www.savashelter.org
     </footermedia>
 
+    <!--
     <script>
         // When the user scrolls down 50px from the top of the document, resize the header's font size
 
@@ -89,7 +86,7 @@
             scrollFunction()
             /*scrollFunction2()*/
         };
-
+		
         function scrollFunction() {
             if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
                 document.getElementById("header").style.fontSize = "18px";
@@ -114,6 +111,7 @@
         }
         */                  
     </script>
+	-->
 	
 </body>
 </html>

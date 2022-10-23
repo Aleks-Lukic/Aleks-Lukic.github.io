@@ -17,65 +17,74 @@
 
 <body>
     <section>
-		<div id = "gradbackground" class = "one" style = "height:auto;">
-			<div id = "holder">
-				<div id = "header">
-					<h1>
-						<div id = "textdefault">&nbsp;P&nbsp;R&nbsp;O&nbsp;J&nbsp;E&nbsp;C&nbsp;T&nbsp;</div>
-						
-					</h1><br><br><br>
-				</div>
-
-				<div id = "nav">
-					<div id = "textdefault">
-						<a href = "https://www.savashelter.org">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href = "https://www.savashelter.org/mission">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href = "https://www.savashelter.org/help">Ways to help</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href = "https://www.savashelter.org/contact">Connect with us</a>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-		
 		<div id = "text" style="height:100vh;">
 		
-			<div id = "textholder" style="height:100vh; border-top: solid grey;">
-				<div class="centerleft">
-					<p style="font-size:32px; color: #233A59;">Our Mission<br><br>
-						<p style="font-size:28px; color: #233A59;">This is a sample text</p>
+			<div id = "textholder" style="height:100vh; width:60%; border-bottom: solid grey">
+				<div class="centerleft" style="left:60%; top:40%">
+					<p>
+						<div id = "holder">
+							<div id = "header">
+								<h1>
+									<div id = "textdefault" style="color:black;">&nbsp;P&nbsp;R&nbsp;O&nbsp;J&nbsp;E&nbsp;C&nbsp;T&nbsp;</div>
+									<img src="../resources/SS_LOGO_transparent.png" style="width:15%;">
+								</h1><br>
+							</div>
+
+							<div id = "nav">
+								<div id = "textdefault">
+									<a href = "https://www.savashelter.org" style="color:black;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/mission" style="color:black;">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/help" style="color:black;">Ways to help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/contact" style="color:black;">Connect with us</a>
+								</div>
+							</div>
+						</div>
 					</p>
 				</div>
 			</div>
 			
-			<div id = "imageholder" class = "one" style="border-top: solid grey;"></div>
+			<div id = "imageholder" class = "one" style="width:40%; border-bottom: solid grey"></div>
 			
 		</div>
 
 
-        <div id = "article">
-			<div style="padding: .5rem; background-color: white;">
-				<div id = "text" style="padding: 1rem; background-color: transparent;">
+        <div id = "article" style="min-height:100vh;">
+			<div id = "text">
+				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 22px;">
+					<br><br>
+					<p style="font-size: 32px;">How it all started:</p> <br><br>
+					I have always loved animals, but especially dogs. In early 2019 I was traveling around Serbia and helping out at Vucjak Shelter for a few days as I 
+					love being in the company of so many dogs and doing something good for them. After that I support the Shelter monthly from Germany and met my current 
+					wife Lima. We always dreamed of a house and a dog together.<br><br>
+					It was always clear to us that it should be a rescue dog, as we would rather give a poor street dog (of which there are so many already exist!) a good 
+					life than buy a specially bred pedigree dog. Lima then found Sava on Dejan's Instagram profile at the end of 2020 and knew immediately that this was 
+					"our dog". From now on the waiting started, because Corona made transport to Germany very difficult, and so in April 2021 after moving to our house we 
+					drove to Serbia ourselves to pick up Sava.<br><br>
+					It was also immediately clear to us that we would drive as many dogs back as could fit in our car, so on the way back we were traveling with four dogs. 
+					Little Mila fell in love with our Sava and snuggled up to him. Since she didn't have a permanent position in Germany yet, we spontaneously took her on 
+					with us and looking back, we couldn't be happier about it. The two showed us how wonderful it is to give these poor creatures the chance of a new life 
+					in a real family. It's so nice to see how they sleep in the warmth on cuddly blankets - without hunger and fear.<br><br>
+					We would love to take in all the dogs and regularly fantasize about how a third and fourth would fit into the pack. But since our families throw up their 
+					hands in shock at these thoughts and monthly donations alone are not enough for us, we would like to go one step further. We want to proactively build a 
+					safe place for dogs in Bosnia ourselves and enrich the lives of poor souls.
+					<br><br><br><br>
 					
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+					<p style="font-size: 32px;">Project:</p> <br><br>
+					Where I come from, most people are poor and don't care much about animal welfare because of their own concerns. Dogs are kept in short chains or confined 
+					to tiny kennels all their lives, where they serve as "living alarm systems." Those roaming free breed uncontrollably, pups rarely survive their first few 
+					days or are even carelessly discarded into rivers or landfills.<br><br>
+					However, despite the lack of empathy and financial resources, the local government in Sekovici is very interested in working with a private animal shelter 
+					in the area. They are willing to support us with non-monetary goods such as building materials, firewood, and construction machinery. However, we also need 
+					another €9,000 to start building the buildings.
+					<br><br><br><br>
 					
-					<img src="resources/SS_LOGO.jpg">
-
+					<u>October 2022</u><br><br>
+					We have bought a large piece of land near Sekovici in Bosnia and are now planning the next steps:<br><br>
+					1. Construction of a fence to secure an area of ​​approx. 8,000 m²<br>
+					2. Development of the area with electricity and water<br>
+					3. Build a heated wooden shelter for at least 100 dogs (Bosnian winters can get bitterly cold!)<br><br>
+					The land is located here: <a href = "https://goo.gl/maps/uqZ5PsLTdmGmZFX88" style="color:blue;">https://goo.gl/maps/uqZ5PsLTdmGmZFX88</a>
+					<br><br><br><br>
 				</div>
 			</div>
         </div>
@@ -91,6 +100,7 @@
         © 2022 www.savashelter.org
     </footermedia>
 
+    <!--
     <script>
         // When the user scrolls down 50px from the top of the document, resize the header's font size
 
@@ -98,7 +108,7 @@
             scrollFunction()
             /*scrollFunction2()*/
         };
-
+		
         function scrollFunction() {
             if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
                 document.getElementById("header").style.fontSize = "18px";
@@ -123,6 +133,7 @@
         }
         */                  
     </script>
+	-->
 	
 </body>
 </html>
