@@ -145,13 +145,13 @@
         };
 
 		function scrollFunction() {
-			if (document.body.scrollTop > (window.innerHeight)*0.8 || document.documentElement.scrollTop > (window.innerHeight)*0.8) {
+			if (document.body.scrollTop > (window.innerHeight)*0.7 || document.documentElement.scrollTop > (window.innerHeight)*0.7) {
 				document.getElementById("wrapper").style.opacity = "100%";
 			} 
 		}
 		
 		function scrollFunctionTwo() {
-			if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
+			if (document.body.scrollTop > (window.innerHeight)*1.7 || document.documentElement.scrollTop > (window.innerHeight)*1.7) {
 				document.getElementById("wrapper2").style.opacity = "100%";
 			} 
 		}

@@ -55,7 +55,7 @@
 			<div id = "text">
 				<div id = "textholder" style="width: 28.5%; margin-left:37.5%; margin-right:37.5%; font-size: 22px;">
 					<br><br><br>
-					<p style="font-size: 32px; color: #233A59">Contact</p><hr style="width:80%; border: 1px solid #233A59"><br><br><br>
+					<p style="font-size: 32px; color: #233A59">Contact</p><hr style="width:80%; border: 1px solid #233A59"><br>
 					Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
 					Am Höllenberg 16<br>
 					07589 Bocka<br>
@@ -65,7 +65,7 @@
 						<tr">
 							<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-envelope-o" aria-hidden="true" style="vertical-align:bottom"></i></td>
 							<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
-							<td style="vertical-align:middle; margin:0; padding-top:5px; padding-bottom:3px"><a href = "mailto:contact@savashelter.org" style="color:blue;">contact@savashelter.org</a></td>
+							<td style="vertical-align:middle; margin:0; padding-top:6px; padding-bottom:3px"><a href = "mailto:contact@savashelter.org" style="color:blue;">contact@savashelter.org</a></td>
 						</tr>
 						<tr">
 							<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-instagram fa-1x" aria-hidden="true" style="vertical-align:bottom"></i></td>
