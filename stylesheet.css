@@ -18,7 +18,7 @@ p {
 }
 
 a:hover, a:active {
-	color: rgba(137, 144, 153, 0.9);
+	color: rgba(137, 144, 153, 0.9) !important;
 }
 
 hr {
@@ -176,6 +176,27 @@ body {
 	width: 100%;
 	float: left;
 	position: relative;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
+#wrapper2 {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
+#delayedText {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
 }
 
 #gradbackground.two {

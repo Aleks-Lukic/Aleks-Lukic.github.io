@@ -38,9 +38,11 @@
 			
 			<div id = "text" style="height:100vh;">
 				<div class="center">
-					<hr style="width:50%; border: 1px solid #233A59">
-					<p style="font-size:32px; color: #233A59;">A new Hope for Stray Dogs in Bosnia</p>
-					<hr style="width:50%; border: 1px solid #233A59">
+					<div id = "delayedText">
+						<hr style="width:50%; border: 1px solid #233A59">
+						<p style="font-size:32px; color: #233A59;">A new Hope for Stray Dogs in Bosnia</p>
+						<hr style="width:50%; border: 1px solid #233A59">
+					</div>
 				</div>
 			</div>
 			
@@ -50,12 +52,14 @@
 		
 			<div id = "textholder" style="height:100vh; border-top: solid grey;">
 				<div class="centerleft">
-					<p style="font-size:32px; color: #233A59;">Our Mission<br><hr style="width:50%; border: 1px solid #233A59"><br>
-						<p style="font-size:28px; color: #233A59;">
-							Getting dogs off the streets, providing them with food and a warm and safe place to stay. Medical care as well as countermeasures for 
-							uncontrolled reproduction.
+					<div id = "wrapper">
+						<p style="font-size:32px; color: #233A59;">Our Mission<br><hr style="width:50%; border: 1px solid #233A59"><br>
+							<p style="font-size:28px; color: #233A59;">
+								Getting dogs off the streets, providing them with food and a warm and safe place to stay. Medical care as well as countermeasures for 
+								uncontrolled reproduction.
+							</p>
 						</p>
-					</p>
+					</div>
 				</div>
 			</div>
 			
@@ -70,12 +74,14 @@
 			
 			<div id = "textholder" style="height:100vh; border-top: solid grey; border-bottom: solid grey">
 				<div class="centerright">
-					<p style="font-size:32px; color: #233A59;">Our Vision<br><hr style="width:50%; border: 1px solid #233A59"><br>
-						<p style="font-size:28px; color: #233A59; ">
-							No suffering stray dogs in the region of Šekovići, no dog abuse, fundamental understanding of animal welfare with a stable adoption stream 
-							of shelter dogs into loving forever homes.
+					<div id = "wrapper2">
+						<p style="font-size:32px; color: #233A59;">Our Vision<br><hr style="width:50%; border: 1px solid #233A59"><br>
+							<p style="font-size:28px; color: #233A59; ">
+								No suffering stray dogs in the region of Šekovići, no dog abuse, fundamental understanding of animal welfare with a stable adoption stream 
+								of shelter dogs into loving forever homes.
+							</p>
 						</p>
-					</p>
+					</div>
 				</div>
 			</div>
 			
@@ -83,23 +89,24 @@
 		
 		<!-- <div id = "gradbackground" class = "two" style="border: solid black;"> -->
 			<div id = "text" style="border-top: solid grey">
-				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 22px;">
-					<br><br>
-					<p style="font-size: 32px;">Hi, my name is Aleks!</p> <br><br>
-					I am 35 years old and originally from Croatia. A large part of my family still lives in the countries of the former Yugoslavia. 
-					Every time my wife Lima and I visit, we are shocked at how many dogs are sick, living on the streets, having discarded food, being hit by people and run 
-					over by cars. We want to change that from the bottom of our hearts.<br><br>
-					So we bought a large piece of land near Sekovici in Bosnia and are now planning the next steps to build a sanctuary for dogs in need. For this purpose we 
-					founded the association "Sava Shelter e.V.". in September 2022 together with our family.<br><br>
-					We hope to make the life of the Bosnian street dogs worth living in the years to come and we are very happy about any interest and help.<br><br>
-					Lima & Aleks
-					<br><br><br><br>
+				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 22px; min-height:100vh">
+					<br><br><br>
+					<p style="font-size: 32px; color: #233A59;">Hi, my name is Aleks!</p><hr style="width:50%; border: 1px solid #233A59"><br>
+					<p style="text-align:justify !important">I am 35 years old and originally from Croatia. A large part of my family still lives in the countries of the former Yugoslavia. 
+						Every time my wife Lima and I visit, we are shocked at how many dogs are sick, living on the streets, having discarded food, being hit by people and run 
+						over by cars. We want to change that from the bottom of our hearts.<br><br>
+						So we bought a large piece of land near Sekovici in Bosnia and are now planning the next steps to build a sanctuary for dogs in need. For this purpose we 
+						founded the association "Sava Shelter e.V.". in September 2022 together with our family.<br><br>
+						We hope to make the life of the Bosnian street dogs worth living in the years to come and we are very happy about any interest and help.<br><br>
+						Lima & Aleks
+					</p>
+					<br><br><br>
 				
-					<img src = "resources/Leksimi.jpg" style = "display: block; margin-left: auto; margin-right: auto; width: auto; height: 400px; border-radius: 0%; border: 1px solid black"><br><br>
+					<img src="resources/Leksimi_cropped_2.jpg" style="width:40%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;"><br><br><br>
 				</div>
 				
 				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 20px;">
-					<h3 class = "two">Comments</h3><br>
+					<h3 class = "two" style="text-align: center">Comments</h3><br>
 					If you wish to leave a comment or start a discussion please feel free to enter your message below via your GitHub account.<br><br>
 
 					<script src = "https://utteranc.es/client.js"
@@ -108,7 +115,7 @@
 						theme = "github-light"
 						crossorigin = "anonymous"
 						async>
-					</script>
+					</script><br><br>
 				</div>
 
 			</div>
@@ -125,40 +132,35 @@
         © 2022 www.savashelter.org
     </footermedia>
 	
-	<!--
-    <script>
-        // When the user scrolls down 50px from the top of the document, resize the header's font size
-
-        window.onscroll = function() {
-            scrollFunction()
-            /*scrollFunction2()*/
-        };
+	
+	<script>
 		
-        function scrollFunction() {
-            if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
-                document.getElementById("header").style.fontSize = "18px";
-                document.getElementById("article").style.paddingTop = "70px";
-            } 
-            else {
-                document.getElementById("header").style.fontSize = "26px";
-                document.getElementById("article").style.paddingTop = "110px";
-            }
-        }
+		var theDelay = 0.7;
+		var timer = setTimeout("showText()",theDelay*1000)
+		
+		window.onscroll = function() {
+            scrollFunction();
+			scrollFunctionTwo();
+            /*scrollFunction3()*/
+        };
 
-        /*
-        function scrollFunction2() {
-            if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
-                document.getElementById("textdefault").style.opacity = "0";
-                document.getElementById("textscroll").style.opacity = "1";
-            } 
-            else {
-                document.getElementById("textdefault").style.opacity = "1";
-                document.getElementById("textscroll").style.opacity = "0";
-            }
-        }
-        */                  
+		function scrollFunction() {
+			if (document.body.scrollTop > (window.innerHeight)*0.7 || document.documentElement.scrollTop > (window.innerHeight)*0.7) {
+				document.getElementById("wrapper").style.opacity = "100%";
+			} 
+		}
+		
+		function scrollFunctionTwo() {
+			if (document.body.scrollTop > (window.innerHeight)*1.7 || document.documentElement.scrollTop > (window.innerHeight)*1.7) {
+				document.getElementById("wrapper2").style.opacity = "100%";
+			} 
+		}
+		
+		function showText(){
+			document.getElementById("delayedText").style.opacity = "100%";
+		}
+		               
     </script>
-	-->
 	
 </body>
 </html>

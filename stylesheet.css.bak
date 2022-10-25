@@ -18,7 +18,7 @@ p {
 }
 
 a:hover, a:active {
-	color: rgba(137, 144, 153, 0.9);
+	color: rgba(137, 144, 153, 0.9) !important;
 }
 
 hr {
@@ -178,6 +178,20 @@ body {
 	position: relative;
 }
 
+#wrapper {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 0.5s ease-out;
+}
+
+#delayedText {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
 #gradbackground.two {
 	/*background-image: linear-gradient(to bottom, rgba(139,214,158, 0.3), white);*/
 	background-color: rgba(113,132,83, 0.15);
@@ -306,7 +320,7 @@ body {
 	margin: 0;
 	position: relative;
 	top: 50%;
-	left: 40%;
+	left: 30%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
@@ -315,7 +329,7 @@ body {
 	margin: 0;
 	position: relative;
 	top: 50%;
-	left: 60%;
+	left: 70%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
