@@ -4,13 +4,13 @@
 
 <head>
 	
-	<link rel = "stylesheet" type = "text/css" href = "../stylesheet.css" media = "screen"/>
+	<link rel = "stylesheet" type = "text/css" href = "../../stylesheet.css" media = "screen"/>
 	<link href = "https://fonts.googleapis.com/css?family=Baskerville|Cinzel|Great+Vibes|Marck+Script|Parisienne|Maven+Pro|Signika|Sacramento&display=swap" rel = "stylesheet">
-	<link href = "../resources/doge.png" rel = "icon" type = "image/x-icon" />
+	<link href = "../../resources/SS_Thumbnail_transparent_cropped.png" rel = "icon" type = "image/x-icon" />
 	<title>Helping Stray Dogs in Need!</title>
     <meta charset = "utf-8">
     <meta name = "viewport" content = "width=device-width, initial-scale = 1">
-	<script src = "../scripts.js"></script>
+	<script src = "../../scripts.js"></script>
 	
 </head>
 
@@ -18,11 +18,19 @@
 <body>
     <section>
 		<div id = "text" style="height:100vh;">
-			<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:41px; height: 50px; z-index:99;">&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;<br>
-				<img src="../resources/SS_LOGO_transparent.png" style="width:10%; margin-top: 7px;">
+			<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:41px; height: 50px; z-index:99;">
+				<div>
+					&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
+					<sub style="position:absolute; font-size:18px; align:bottom; margin-left:20px;">
+						<a href = "https://www.savashelter.org/mission" style="color:#233A59;">en</a> 
+							| 
+						<a href = "https://www.savashelter.org/de/mission" style="color:#233A59;">de</a>
+					</sub>
+				</div>
+				<img src="../../resources/SS_LOGO_transparent.png" style="width:10%; margin-top: 7px;">
 			</div>
 		
-			<div id = "textholder" style="height:100vh; width:60%; border-bottom: solid grey; background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg')";">
+			<div id = "textholder" style="height:100vh; width:60%; border-bottom: solid grey; background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg');">
 				<div class="centerleft" style="left:60%; top:40%">
 					<p>
 						<div id = "holder">
@@ -35,10 +43,10 @@
 
 							<div id = "nav">
 								<div id = "textdefault">
-									<a href = "https://www.savashelter.org" style="color:#375d8f;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href = "https://www.savashelter.org/mission" style="color:#375d8f;">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href = "https://www.savashelter.org/help" style="color:#375d8f;">Ways to help</a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href = "https://www.savashelter.org/contact" style="color:#375d8f;">Connect with us</a>
+									<a href = "https://www.savashelter.org/de" style="color:#375d8f;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/de/mission" style="color:#375d8f;">Projekt</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/de/help" style="color:#375d8f;">So kannst du helfen!</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href = "https://www.savashelter.org/de/contact" style="color:#375d8f;">Kontakt</a>
 								</div>
 							</div>
 						</div>
@@ -57,63 +65,50 @@
 					<br><br><br>
 					<div style="width: 100%; display: flex;">
 						<div style="display: inline; width: 33.3%;">
-							<img src="../resources/Leksimi_cropped.jpg" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../../resources/20190912_140154_cropped.jpg" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 						<div style="display: inline; width: 33.3%;">
-							<img src="../resources/BILD0999.JPG" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../../resources/BILD0999.JPG" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 						<div style="display: inline; width: 33.3%;">
-							<img src="../resources/IMG_0825.JPG" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../../resources/IMG_0825.JPG" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 					</div><br>
 					<div style="width: 100%; display: flex; text-align: center;">
 						<div style="display: inline; width: 33.3%">
 							<p style="color: #233A59">Aleks & Lima Lukić</p>
-							<i style="font-size:18px;">Founders and managing<br> directors</i>
+							<i style="font-size:18px;">Gründer von Sava Shelter</i>
 						</div>
 						<div style="display: inline; width: 33.3%">
 							<p style="color: #233A59">Miloš & Ankica Lukić</p>
-							<i style="font-size:18px;">Administration</i>
+							<i style="font-size:18px;">Verwaltung</i>
 						</div>
 						<div style="display: inline; width: 33.3%">
 							<p style="color: #233A59">Bojan Lukić</p>
-							<i style="font-size:18px;">IT and general support</i>
+							<i style="font-size:18px;">IT und Support</i>
 						</div>
 					</div><br><br><br>
-					<p style="font-size: 32px; color: #233A59">How it all started</p><hr style="width:50%; border: 1px solid #233A59"> <br>
-					<p style="text-align:justify !important">I have always loved animals, but especially dogs. In early 2019 I was traveling around Serbia and helping out at Vucjak Shelter for a few days as I 
-						love being in the company of so many dogs and doing something good for them. After that I support the Shelter monthly from Germany and met my current 
-						wife Lima. We always dreamed of a house and a dog together.<br><br>
-						It was always clear to us that it should be a rescue dog, as we would rather give a poor street dog (of which there are so many already exist!) a good 
-						life than buy a specially bred pedigree dog. Lima then found Sava on Dejan's Instagram profile at the end of 2020 and knew immediately that this was 
-						"our dog". From now on the waiting started, because Corona made transport to Germany very difficult, and so in April 2021 after moving to our house we 
-						drove to Serbia ourselves to pick up Sava.<br><br>
-						It was also immediately clear to us that we would drive as many dogs back as could fit in our car, so on the way back we were traveling with four dogs. 
-						Little Mila fell in love with our Sava and snuggled up to him. Since she didn't have a permanent position in Germany yet, we spontaneously took her on 
-						with us and looking back, we couldn't be happier about it. The two showed us how wonderful it is to give these poor creatures the chance of a new life 
-						in a real family. It's so nice to see how they sleep in the warmth on cuddly blankets - without hunger and fear.<br><br>
-						We would love to take in all the dogs and regularly fantasize about how a third and fourth would fit into the pack. But since our families throw up their 
-						hands in shock at these thoughts and monthly donations alone are not enough for us, we would like to go one step further. We want to proactively build a 
-						safe place for dogs in Bosnia ourselves and enrich the lives of poor souls.
+					<p style="font-size: 32px; color: #233A59">So fing alles an</p><hr style="width:50%; border: 1px solid #233A59"> <br>
+					<p style="text-align:justify !important">Ich habe schon immer Tiere, aber vor allem Hunde geliebt. Anfang 2019 reiste ich durch Serbien und half einige Tage im Hundeheim Vucjak Shelter aus, da ich es liebe, in Gesellschaft so vieler Hunde zu sein und ihnen etwas Gutes zu tun. Danach unterstütze ich das Shelter monatlich finanziell von Deutschland aus und lernte meine heutige Frau Lima kennen. Gemeinsam haben wir immer von einem Haus und Hund geträumt.<br><br>
+						Für uns war dabei immer klar, dass es ein geretteter Hund sein sollte, da wir lieber einem armen Straßenhund (von denen es bereits so viele gibt!) ein gutes Leben ermöglichen, als einen extra angezüchteten Rassehund zu kaufen. Lima fand Sava dann Ende 2020 auf Dejans Instagram-Profil und wusste sofort, dass dies „unseren Hund“ sei. Von nun an ging die Warterei los, da Corona einen Transport nach Deutschland sehr schwierig machte, und so sind wir im April 2021 nach dem Umzug in unser Haus dann selbst nach Serbien gefahren, um Sava abzuholen..<br><br>
+						Uns war auch gleich klar, dass wir so viele Hunde zurückfahren, wie in unser Auto passen und so waren wir auf dem Rückweg mit vier Hunden unterwegs. Dabei verliebte sich die kleine Mila in unseren Sava und kuschelte sich ganz fest an ihn. Da sie noch keine endgültige Stelle in Deutschland hatte, nahmen wir sie spontan mit auf und könnten darüber rückwirkend nicht glücklicher sein. Die beiden haben uns gezeigt, wie wunderbar es ist, diesen armen Geschöpfen die Chance auf ein neues Leben in einer richtigen Familie zu schenken. Es ist so schön zu sehen, wie sie im Warmen auf Kuscheldecken schlafen - ohne Hunger und Angst.<br><br>
+						Wir würden am liebsten alle Hunde bei uns aufnehmen und fantasieren regelmäßig darüber, wie ein dritter und vierter sich wohl ins Rudel einfügen würden. Da unsere Familien bei diesen Gedanken aber erschrocken die Hände über den Köpfen zusammenschlagen und uns monatliche Geldspenden allein aber auch nicht zufriedenstellen, möchten wir einen Schritt weiter gehen. Wir wollen selbst proaktiv einen sicheren Ort für Hunde in Bosnien aufbauen und die Leben der armen Seelen bereichern.
 					</p>
 					<br><br><br><br>
 					
-					<p style="font-size: 32px; color: #233A59">Project</p><hr style="width:50%; border: 1px solid #233A59"> <br>
-					<p style="text-align:justify !important">Where I come from, most people are poor and don't care much about animal welfare because of their own concerns. Dogs are kept in short chains or confined 
-						to tiny kennels all their lives, where they serve as "living alarm systems." Those roaming free breed uncontrollably, pups rarely survive their first few 
-						days or are even carelessly discarded into rivers or landfills.<br><br>
-						However, despite the lack of empathy and financial resources, the local government in Sekovici is very interested in working with a private animal shelter 
-						in the area. They are willing to support us with non-monetary goods such as building materials, firewood, and construction machinery. However, we also need 
-						another €9,000 to start building the buildings.
+					<p style="font-size: 32px; color: #233A59">Projekt</p><hr style="width:50%; border: 1px solid #233A59"> <br>
+					<p style="text-align:justify !important">Wo ich herkomme, sind die meisten Menschen arm und haben aufgrund eigener Sorgen nicht viel übrig für Tierwohl. Hunde werden ihr Leben lang an kurzen Ketten gehalten oder in winzige Zwinger gesperrt, wo sie als „lebende Alarmanlage“ dienen. Diejenigen, die frei herumlaufen, vermehren sich unkontrolliert, Welpen überleben selten ihre ersten Tage oder werden gar achtlos in Flüsse oder auf Mülldeponien geworfen.<br><br>
+						Trotz Mangel an Empathie und finanzieller Ressourcen ist die lokale Regierung in Sekovici jedoch sehr interessiert an einer Zusammenarbeit mit einem privaten Tierheim in der Region. Sie sind bereit uns mit nicht-monetären Gütern wie Baumaterialien, Brennholz, und Baumaschinen zu unterstützen. Darüber hinaus benötigen wir jedoch weitere 9.000 € um mit dem Bau der Gebäude zu beginnen.
 					</p>
 					<br><br><br><br>
 					
-					<u>October 2022</u><br><br>
-					<p style="text-align:justify !important">We have bought a large piece of land near Sekovici in Bosnia and are now planning the next steps:<br><br>
-						1. Construction of a fence to secure an area of ​​approx. 8,000 m²<br>
-						2. Development of the area with electricity and water<br>
-						3. Build a heated wooden shelter for at least 100 dogs (Bosnian winters can get bitterly cold!)<br><br>
-						The land is located here: <a href = "https://goo.gl/maps/uqZ5PsLTdmGmZFX88" style="color:blue;">https://goo.gl/maps/uqZ5PsLTdmGmZFX88</a>
+					<u>Oktober 2022</u><br><br>
+					<p style="text-align:justify !important">Wir haben ein großes Stück Land in der Nähe von Sekovici in Bosnien gekauft und planen nun die nächsten Schritte:<br><br>
+						1. Aufbau eines Zaunes, um ein Gebiet von ca. 8.000 m² zu sichern<br>
+						2.	Erschließung des Areals mit Strom und Wasser<br>
+						3.	Errichtung eines beheizten Unterschlupfes aus Holz für mindestens 100 Hunde (bosnische Winter können bitterkalt werden!)<br><br>
+						Das Land befindet sich hier: <a href = "https://goo.gl/maps/uqZ5PsLTdmGmZFX88" style="color:blue;">https://goo.gl/maps/uqZ5PsLTdmGmZFX88</a><br><br>
+						Die Hauptstromleitung ist bereits in der Nähe vorhanden und muss nur einige hundert Meter weiter zum Areal geführt werden. Eine städtische Wasserleitung läuft direkt neben dem Areal entlang, sodass lediglich eine Abzweigung errichtet werden muss.  Wir sind bereits im Austausch mit den lokalen Energie- und Wasserversorgern.
 					</p>
 					<br><br><br><br>
 				</div>

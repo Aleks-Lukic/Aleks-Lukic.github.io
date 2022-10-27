@@ -21,7 +21,16 @@
 			<div id = "holder">
 				<div id = "header">
 					<h1>
-						<div id = "textdefault">&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;</div>
+						<div id = "textdefault">
+							<div>
+								&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
+								<sub style="position:absolute; font-size:18px; align:bottom; margin-left:20px;">
+									<a href = "https://www.savashelter.org">en</a> 
+										| 
+									<a href = "https://www.savashelter.org/de">de</a>
+								</sub>
+							</div>
+						</div>
 						<img src="resources/SS_LOGO_transparent.png" style="width:10%;">
 					</h1><br><br><br>
 				</div>
@@ -107,7 +116,7 @@
 				
 				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 20px;">
 					<h3 class = "two" style="text-align: center">Comments</h3><br>
-					If you wish to leave a comment or start a discussion please feel free to enter your message below via your GitHub account.<br><br>
+					<p style="text-align:justify !important">If you wish to leave a comment or start a discussion please feel free to enter your message below via your GitHub account.</p><br><br>
 
 					<script src = "https://utteranc.es/client.js"
 						repo = "Aleks-Lukic/Aleks-Lukic.github.io"
