@@ -35,7 +35,7 @@ h3 {
 }
 
 h3.two {
-	font-size: 22px;
+	font-size: 3.1vh;
 	padding: 0;
 }
 
@@ -176,6 +176,8 @@ body {
 	width: 100%;
 	float: left;
 	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #wrapper {
@@ -222,6 +224,8 @@ body {
 	height: 100vh; 
 	position: relative;
 	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #imageholder.two {
@@ -232,6 +236,8 @@ body {
 	height: 100vh; 
 	position: relative;
 	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #textholder {
@@ -247,7 +253,7 @@ body {
 	float: left;
 	font-family: "Signika";
 	text-align: center;
-	font-size: 26px;
+	font-size: 4vh;
 	overflow: hidden;
 	height: auto; 
 	width: 100%;
@@ -285,7 +291,7 @@ body {
 	float: left;
 	font-family: "Signika";
 	text-align: center;
-	font-size: 20px;
+	font-size: 3vh;
 	overflow: hidden;
 	height: auto; 
 	width: 100%;
@@ -391,7 +397,7 @@ footer {
 	left: 0;
 	right: 0;
 	width: 100%;
-	font-size: 12px; 
+	font-size: 1.7vh; 
 	text-align: center; 
 	background: lightgrey;
 	color: black;

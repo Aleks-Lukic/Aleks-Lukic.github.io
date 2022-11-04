@@ -19,10 +19,10 @@
 <body>
     <section>
 		<div id = "text" style="height:100vh;">
-			<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:41px; height: 50px; z-index:99;">
+			<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:6.2vh; height: 50px; z-index:99;">
 				<div>
 					&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-					<sub style="position:absolute; font-size:18px; align:bottom; margin-left:20px;">
+					<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:20px;">
 						<a href = "https://www.savashelter.org/contact" style="color:#233A59;">en</a> 
 							| 
 						<a href = "https://www.savashelter.org/de/contact" style="color:#233A59;">de</a>
@@ -37,7 +37,7 @@
 						<div id = "holder">
 							<div id = "header">
 								<h1>
-									<div id = "textdefault" style="color:#375d8f; font-size: 36px;">&nbsp;Connect&nbsp;</div>
+									<div id = "textdefault" style="color:#375d8f; font-size: 5vh;">&nbsp;Kontakt&nbsp;</div>
 								</h1><br>
 							</div><hr style="width:35%; border: 1px solid #375d8f">
 

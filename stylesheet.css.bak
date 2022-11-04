@@ -35,7 +35,7 @@ h3 {
 }
 
 h3.two {
-	font-size: 22px;
+	font-size: 3.1vh;
 	padding: 0;
 }
 
@@ -176,6 +176,8 @@ body {
 	width: 100%;
 	float: left;
 	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #wrapper {
@@ -222,6 +224,8 @@ body {
 	height: 100vh; 
 	position: relative;
 	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #imageholder.two {
@@ -232,6 +236,8 @@ body {
 	height: 100vh; 
 	position: relative;
 	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #textholder {
@@ -247,7 +253,7 @@ body {
 	float: left;
 	font-family: "Signika";
 	text-align: center;
-	font-size: 26px;
+	font-size: 4vh;
 	overflow: hidden;
 	height: auto; 
 	width: 100%;
@@ -285,7 +291,7 @@ body {
 	float: left;
 	font-family: "Signika";
 	text-align: center;
-	font-size: 20px;
+	font-size: 3vh;
 	overflow: hidden;
 	height: auto; 
 	width: 100%;
@@ -391,7 +397,7 @@ footer {
 	left: 0;
 	right: 0;
 	width: 100%;
-	font-size: 12px; 
+	font-size: 1.7vh !important; 
 	text-align: center; 
 	background: lightgrey;
 	color: black;
@@ -428,50 +434,6 @@ footermedia {
 	overflow: hidden;
 	transition: max-height 0.35s ease-out;
 }
-
-
-/* Dropdown Button */
-.dropbtn {
-  opacity: 100%;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  background-color: inherit;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  background-color: inherit;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: none;}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-
-
 
 /* Mobile layout */
 @media (max-width: 800px) {

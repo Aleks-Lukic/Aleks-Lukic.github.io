@@ -18,13 +18,13 @@
 <body>
     <section>
 		<div id = "text" style="height:100vh;">
-			<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:41px; height: 50px; z-index:99;">
+			<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:6.2vh; height: 50px; z-index:99;">
 				<div>
 					&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-					<sub style="position:absolute; font-size:18px; align:bottom; margin-left:20px;">
-						<a href = "https://www.savashelter.org" style="color:#233A59;">en</a> 
+					<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:20px;">
+						<a href = "https://www.savashelter.org/mission" style="color:#233A59;">en</a> 
 							| 
-						<a href = "https://www.savashelter.org/de" style="color:#233A59;">de</a>
+						<a href = "https://www.savashelter.org/de/mission" style="color:#233A59;">de</a>
 					</sub>
 				</div>
 				<img src="../resources/SS_LOGO_transparent.png" style="width:10%; margin-top: 7px;">
@@ -36,7 +36,7 @@
 						<div id = "holder">
 							<div id = "header">
 								<h1>
-									<div id = "textdefault" style="color:#375d8f; font-size: 36px;">&nbsp;Project&nbsp;</div>
+									<div id = "textdefault" style="color:#375d8f; font-size: 5vh;">&nbsp;Project&nbsp;</div>
 									
 								</h1><br>
 							</div><hr style="width:35%; border: 1px solid #375d8f">
@@ -61,7 +61,7 @@
 
         <div id = "article" style="min-height:100vh;">
 			<div id = "text">
-				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 22px;">
+				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 3.1vh;">
 					<br><br><br>
 					<div style="width: 100%; display: flex;">
 						<div style="display: inline; width: 33.3%;">
@@ -88,7 +88,7 @@
 							<i style="font-size:18px;">IT and general support</i>
 						</div>
 					</div><br><br><br>
-					<p style="font-size: 32px; color: #233A59">How it all started</p><hr style="width:50%; border: 1px solid #233A59"> <br>
+					<p style="font-size: 4.9vh; color: #233A59">How it all started</p><hr style="width:50%; border: 1px solid #233A59"> <br>
 					<p style="text-align:justify !important">I have always loved animals, but especially dogs. In early 2019 I was traveling around Serbia and helping out at Vucjak Shelter for a few days as I 
 						love being in the company of so many dogs and doing something good for them. After that I support the Shelter monthly from Germany and met my current 
 						wife Lima. We always dreamed of a house and a dog together.<br><br>
