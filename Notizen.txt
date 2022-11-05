@@ -1,3 +1,9 @@
+To-do:
+- "border(-bottom)" responsive machen (vh statt px) 
+- mobile Version der Website erstellen 
+- scroll Effekt?
+
+Done:
 - runde Buchstaben 
 - Leitfarbe grün (matt?) 
 - Navigation oben 
@@ -7,3 +13,4 @@
 
 * Links auf Symbolen statt auf Text?
 * Externe Links in neuem Tab öffnen
+
