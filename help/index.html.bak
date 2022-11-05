@@ -57,7 +57,7 @@
 		
 		<div id = "article" style="min-height:100vh;">
 			<div id = "text">
-				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 3.1vh;">
+				<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 3.1vh;">
 					<br><br><br>
 					
 							<p style="font-size: 4.6vh; color: #233A59">The dogs need our support!</p><hr style="width:50%; border: 1px solid #233A59"> <br>
@@ -80,9 +80,7 @@
 					<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41 8306 5408 0005 2714 52<br>BIC	GENODEF1SLR<br></p>
 					<br><br><br>
 					<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../resources/GoFundMe_logo.svg" style="width:50%;"></a><br>
-					<br>
-					<hr style="width:80%; border: 1px solid #233A59;">
-					<br><br>
+					<br><br><br>
 					<a href = "https://paypal.me/savashelter" target=”_blank”; style="color:blue;"><img src="../resources/PayPal.svg" style="width:50%;"></a></center><br>
 					<br><br><br>
 				</div>

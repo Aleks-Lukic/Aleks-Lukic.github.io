@@ -61,17 +61,17 @@
 
         <div id = "article" style="min-height:100vh;">
 			<div id = "text">
-				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 3.1vh;">
+				<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 3.1vh;">
 					<br><br><br>
 					<div style="width: 100%; display: flex;">
 						<div style="display: inline; width: 33.3%;">
-							<img src="../../resources/20190912_140154_cropped.jpg" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../../resources/20190912_140154_cropped.jpg" style="width:75%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 						<div style="display: inline; width: 33.3%;">
-							<img src="../../resources/BILD0999.JPG" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../../resources/BILD0999.JPG" style="width:75%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 						<div style="display: inline; width: 33.3%;">
-							<img src="../../resources/IMG_0825.JPG" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../../resources/IMG_0825.JPG" style="width:75%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 					</div><br>
 					<div style="width: 100%; display: flex; text-align: center;">
@@ -88,7 +88,7 @@
 							<i style="font-size:18px;">IT und Support</i>
 						</div>
 					</div><br><br><br>
-					<p style="font-size: 32px; color: #233A59">So fing alles an</p><hr style="width:50%; border: 1px solid #233A59"> <br>
+					<p style="font-size: 4.9vh; color: #233A59">So fing alles an</p><hr style="width:50%; border: 1px solid #233A59"> <br>
 					<p style="text-align:justify !important">Ich habe schon immer Tiere, aber vor allem Hunde geliebt. Anfang 2019 reiste ich durch Serbien und half einige Tage im Hundeheim Vucjak Shelter aus, da ich es liebe, in Gesellschaft so vieler Hunde zu sein und ihnen etwas Gutes zu tun. Danach unterstütze ich das Shelter monatlich finanziell von Deutschland aus und lernte meine heutige Frau Lima kennen. Gemeinsam haben wir immer von einem Haus und Hund geträumt.<br><br>
 						Für uns war dabei immer klar, dass es ein geretteter Hund sein sollte, da wir lieber einem armen Straßenhund (von denen es bereits so viele gibt!) ein gutes Leben ermöglichen, als einen extra angezüchteten Rassehund zu kaufen. Lima fand Sava dann Ende 2020 auf Dejans Instagram-Profil und wusste sofort, dass dies „unseren Hund“ sei. Von nun an ging die Warterei los, da Corona einen Transport nach Deutschland sehr schwierig machte, und so sind wir im April 2021 nach dem Umzug in unser Haus dann selbst nach Serbien gefahren, um Sava abzuholen..<br><br>
 						Uns war auch gleich klar, dass wir so viele Hunde zurückfahren, wie in unser Auto passen und so waren wir auf dem Rückweg mit vier Hunden unterwegs. Dabei verliebte sich die kleine Mila in unseren Sava und kuschelte sich ganz fest an ihn. Da sie noch keine endgültige Stelle in Deutschland hatte, nahmen wir sie spontan mit auf und könnten darüber rückwirkend nicht glücklicher sein. Die beiden haben uns gezeigt, wie wunderbar es ist, diesen armen Geschöpfen die Chance auf ein neues Leben in einer richtigen Familie zu schenken. Es ist so schön zu sehen, wie sie im Warmen auf Kuscheldecken schlafen - ohne Hunger und Angst.<br><br>
@@ -96,7 +96,7 @@
 					</p>
 					<br><br><br><br>
 					
-					<p style="font-size: 32px; color: #233A59">Projekt</p><hr style="width:50%; border: 1px solid #233A59"> <br>
+					<p style="font-size: 4.9vh; color: #233A59">Projekt</p><hr style="width:50%; border: 1px solid #233A59"> <br>
 					<p style="text-align:justify !important">Wo ich herkomme, sind die meisten Menschen arm und haben aufgrund eigener Sorgen nicht viel übrig für Tierwohl. Hunde werden ihr Leben lang an kurzen Ketten gehalten oder in winzige Zwinger gesperrt, wo sie als „lebende Alarmanlage“ dienen. Diejenigen, die frei herumlaufen, vermehren sich unkontrolliert, Welpen überleben selten ihre ersten Tage oder werden gar achtlos in Flüsse oder auf Mülldeponien geworfen.<br><br>
 						Trotz Mangel an Empathie und finanzieller Ressourcen ist die lokale Regierung in Sekovici jedoch sehr interessiert an einer Zusammenarbeit mit einem privaten Tierheim in der Region. Sie sind bereit uns mit nicht-monetären Gütern wie Baumaterialien, Brennholz, und Baumaschinen zu unterstützen. Darüber hinaus benötigen wir jedoch weitere 9.000 € um mit dem Bau der Gebäude zu beginnen.
 					</p>

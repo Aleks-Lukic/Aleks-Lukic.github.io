@@ -61,17 +61,17 @@
 
         <div id = "article" style="min-height:100vh;">
 			<div id = "text">
-				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 3.1vh;">
+				<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 3.1vh;">
 					<br><br><br>
 					<div style="width: 100%; display: flex;">
 						<div style="display: inline; width: 33.3%;">
-							<img src="../resources/20190912_140154_cropped.jpg" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../resources/20190912_140154_cropped.jpg" style="width:75%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 						<div style="display: inline; width: 33.3%;">
-							<img src="../resources/BILD0999.JPG" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../resources/BILD0999.JPG" style="width:75%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 						<div style="display: inline; width: 33.3%;">
-							<img src="../resources/IMG_0825.JPG" style="width:50%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
+							<img src="../resources/IMG_0825.JPG" style="width:75%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;">
 						</div>
 					</div><br>
 					<div style="width: 100%; display: flex; text-align: center;">
@@ -106,7 +106,7 @@
 					</p>
 					<br><br><br><br>
 					
-					<p style="font-size: 32px; color: #233A59">Project</p><hr style="width:50%; border: 1px solid #233A59"> <br>
+					<p style="font-size: 4.9vh; color: #233A59">Project</p><hr style="width:50%; border: 1px solid #233A59"> <br>
 					<p style="text-align:justify !important">Where I come from, most people are poor and don't care much about animal welfare because of their own concerns. Dogs are kept in short chains or confined 
 						to tiny kennels all their lives, where they serve as "living alarm systems." Those roaming free breed uncontrollably, pups rarely survive their first few 
 						days or are even carelessly discarded into rivers or landfills.<br><br>

@@ -61,9 +61,9 @@
 
         <div id = "article" style="min-height:100vh;">
 			<div id = "text">
-				<div id = "textholder" style="width: 28.5%; margin-left:35.75%; margin-right:35.75%; font-size: 22px;">
+				<div id = "textholder" style="width: 28.5%; margin-left:35.75%; margin-right:35.75%; font-size: 3.1vh;">
 					<br><br><br>
-					<p style="font-size: 32px; color: #233A59">Kontakt</p><hr style="width:80%; border: 1px solid #233A59"><br>
+					<p style="font-size: 4.6vh; color: #233A59">Kontakt</p><hr style="width:80%; border: 1px solid #233A59"><br>
 					Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
 					Am Höllenberg 16<br>
 					07589 Bocka<br>

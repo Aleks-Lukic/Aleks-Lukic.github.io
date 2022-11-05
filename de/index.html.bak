@@ -24,7 +24,7 @@
 						<div id = "textdefault">
 							<div>
 								&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-								<sub style="position:absolute; font-size:18px; align:bottom; margin-left:20px;">
+								<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:20px;">
 									<a href = "https://www.savashelter.org">en</a> 
 										| 
 									<a href = "https://www.savashelter.org/de">de</a>
@@ -49,7 +49,7 @@
 				<div class="center">
 					<div id = "delayedText">
 						<hr style="width:50%; border: 1px solid #233A59">
-						<p style="font-size:32px; color: #233A59;">Eine neue Hoffnung für Straßenhunde in Bosnien</p>
+						<p style="font-size:4vh; color: #233A59;">Eine neue Hoffnung für Straßenhunde in Bosnien</p>
 						<hr style="width:50%; border: 1px solid #233A59">
 					</div>
 				</div>
@@ -62,8 +62,8 @@
 			<div id = "textholder" style="height:100vh; border-top: solid grey;">
 				<div class="centerleft">
 					<div id = "wrapper">
-						<p style="font-size:32px; color: #233A59;">Unsere Mission<br><hr style="width:50%; border: 1px solid #233A59"><br>
-							<p style="font-size:28px; color: #233A59;">
+						<p style="font-size:4vh; color: #233A59;">Unsere Mission<br><hr style="width:50%; border: 1px solid #233A59"><br>
+							<p style="font-size:3.9vh; color: #233A59;">
 								Hunde von der Straße holen, ihnen Nahrung und einen trocken und warmen Schlafplatz zur Verfügung stellen, medizinische Versorgung sowie Maßnahmen gegen unkontrollierte Vermehrung.
 							</p>
 						</p>
@@ -83,8 +83,8 @@
 			<div id = "textholder" style="height:100vh; border-top: solid grey; border-bottom: solid grey">
 				<div class="centerright">
 					<div id = "wrapper2">
-						<p style="font-size:32px; color: #233A59;">Unsere Vision<br><hr style="width:50%; border: 1px solid #233A59"><br>
-							<p style="font-size:28px; color: #233A59; ">
+						<p style="font-size:4vh; color: #233A59;">Unsere Vision<br><hr style="width:50%; border: 1px solid #233A59"><br>
+							<p style="font-size:3.9vh; color: #233A59; ">
 								Keine leidenden Straßenhunde in der Region Šekovići, keine Misshandlung von Hunden, grundlegendes Verständnis von Tierschutz in der Bevölkerung und ein stabiler Adoptionsstrom von Hunden in liebevolle Heime.
 							</p>
 						</p>
@@ -96,9 +96,9 @@
 		
 		<!-- <div id = "gradbackground" class = "two" style="border: solid black;"> -->
 			<div id = "text" style="border-top: solid grey">
-				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 22px; min-height:100vh">
+				<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 3.2vh; min-height:100vh">
 					<br><br><br>
-					<p style="font-size: 32px; color: #233A59;">Hallo, ich bin Aleks!</p><hr style="width:50%; border: 1px solid #233A59"><br>
+					<p style="font-size: 4vh; color: #233A59;">Hallo, ich bin Aleks!</p><hr style="width:50%; border: 1px solid #233A59"><br>
 					<p style="text-align:justify !important">Ich bin 35 Jahre alt und stamme ursprünglich aus Kroatien. Ein Großteil meiner Familie lebt heute noch immer in den ehemals Jugoslawischen Ländern. Wenn meine Frau Lima und ich sie besuchen, sind wir jedes Mal wieder erschrocken, wie viele Hunde krank sind, auf der Straße leben, essen, was weggeworfen wird, von Menschen geschlagen und von Autos überfahren werden. Dies möchten wir von Herzen gerne ändern.<br><br>
 						Somit haben wir ein großes Stück Land in der Nähe von Sekovici in Bosnien gekauft und planen nun die nächsten Schritte im Aufbau einer Auffangstation für Hunde in Not. Hierfür haben wir im September 2022 gemeinsam mit unserer Familie den Verein „Sava Shelter e.V.“ gegründet.<br><br>
 						Wir hoffen, in den kommenden Jahren das Leben der bosnischen Straßenhunde lebenswert zu machen und sind über jedes Interesse und jede Hilfe sehr froh.<br><br>
@@ -109,7 +109,7 @@
 					<img src="../resources/Leksimi_cropped_2.jpg" style="width:40%; border-radius:50%; border:solid black; display: block; margin-left: auto; margin-right: auto;"><br><br><br>
 				</div>
 				
-				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 20px;">
+				<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 2.8vh;">
 					<h3 class = "two" style="text-align: center">Comments</h3><br>
 					<p style="text-align:justify !important">If you wish to leave a comment or start a discussion please feel free to enter your message below via your GitHub account.</p><br><br>
 

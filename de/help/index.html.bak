@@ -57,7 +57,7 @@
 		
 		<div id = "article" style="min-height:100vh;">
 			<div id = "text">
-				<div id = "textholder" style="width: 70%; margin-left:15%; margin-right:15%; font-size: 3.1vh;">
+				<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 3.1vh;">
 					<br><br><br>
 					
 							<p style="font-size: 4.6vh; color: #233A59">Die Hunde brauchen unsere Hilfe!</p><hr style="width:50%; border: 1px solid #233A59"> <br>
@@ -73,7 +73,7 @@
 
         <div id = "article" style="min-height:100vh;">
 			<div id = "text">
-				<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 22px;">
+				<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 3.1vh;">
 					<br><br><br>
 					
 					<p style="font-size: 4.6vh; color: #233A59">Bankverbindung</p><hr style="width:80%; border: 1px solid #233A59;"><br>

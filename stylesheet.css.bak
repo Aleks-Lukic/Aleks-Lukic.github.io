@@ -390,6 +390,14 @@ section:after {
 	clear: both;
 }
 
+desktop {
+	display: block;
+}
+
+mobile {
+	display: none;
+}
+
 footer {
 	bottom: 0;
 	margin-left: auto;
@@ -397,7 +405,7 @@ footer {
 	left: 0;
 	right: 0;
 	width: 100%;
-	font-size: 1.7vh !important; 
+	font-size: 1.7vh; 
 	text-align: center; 
 	background: lightgrey;
 	color: black;
