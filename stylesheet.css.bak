@@ -201,6 +201,27 @@ body {
 	transition: opacity 3s ease-out;
 }
 
+#wrapper_2 {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
+#wrapper_2_2 {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
+#delayedText_2 {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
 #gradbackground.two {
 	/*background-image: linear-gradient(to bottom, rgba(139,214,158, 0.3), white);*/
 	background-color: rgba(113,132,83, 0.15);
@@ -240,6 +261,31 @@ body {
 	background-size: cover;
 }
 
+#imageholder.three {
+	width: 100%;
+	background-image: 
+	linear-gradient(to bottom, rgba(9,104,199, 0.3), white), 
+	url("resources/Sava_Mila.jpg");
+	height: 60vh; 
+	position: relative;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#imageholder.four {
+	width: 100%;
+	background-image: 
+	linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 50%, white 100%), 
+	url("resources/117168084_1178110172563072_6531715487445287405_n_copy.jpg");
+	height: 60vh; 
+	position: relative;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 #textholder {
 	width: 40%;
 	height: auto;
@@ -264,8 +310,8 @@ body {
 
 #textdefault {
 	/*opacity: 1;*/
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 1.5vh;
+	margin-bottom: 1.5vh;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -294,7 +340,9 @@ body {
 	font-size: 3vh;
 	overflow: hidden;
 	height: auto; 
-	width: 100%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -445,132 +493,11 @@ footermedia {
 
 /* Mobile layout */
 @media (max-width: 800px) {
-
-	a.two {
-		padding-left: 10px !important;
-		padding-right: 10px !important;
-	}
-
-	figure {
-		width: 200px !important;
-		height: 200px !important;
-		text-align: center !important;
-	}
-	figcaption {
-		text-align: center !important;
-	}
-
-	#nav {
-		width: 100% !important;
-		text-align: center !important;
-		position: relative !important;
-		top: 110px !important;
-		padding: 0 !important;
-		min-height: auto !important;
-		height: auto !important;
-	}
-	#nav:hover { 
-		transform: none !important; 
-		transform-origin: none !important;
-	}
-	bottom:hover {
-		transform: none !important; 
-		transform-origin: none !important;
-	}
-	#article{
-		width: 100% !important;
-		min-height: 0 !important;
-		padding-top: 0 !important;
-		margin-top: 145px;
-	}
-	#text {
-		width: 100% !important;
-		height: auto;
-		padding: 0.25rem !important;
-	}
-	social {
-		position: relative !important;
-		min-height: auto !important;
-		width: 100% !important;
-		height: auto;
-		text-align: center !important;
-		background-color: #F6F9FB;
-		padding-top: 0 !important;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-		padding-bottom: 2rem !important;
-	}
-	footer {
-		display: none !important;
-	}
-	footermedia {
-		width: 100% !important;
-		display: block !important;
-		font-size: 10px; 
-		text-align: center; 
-		background: lightgrey;
-		color: black;
-	}
-	bottom {
+	desktop {
 		display: none; 
 	}
-	bottommedia {
-		display: block !important;
-		position: relative;              
-		bottom: 0;                          
-		left: 0;    
-		top: 0;  
-		right: 0; 
-	}
-	h3 {
-		padding-left: 10px !important;
-		padding-right: 10px !important;
-	}
-	h3.two {
-		padding: 0 !important;
-	}
-	table td, table td * {
-		text-align: left !important;
-	}
-
-	td.one {
-		width: 0% !important;
-	}
-	td.two {
-		width: 26% !important;
-	}
-	td.three {
-		width: 70% !important;
-	}
-	td.four {
-		width: 100% !important;
-	}
-	td.five {
-		width: 18% !important;
-	}
-	td.six {
-		width: 52% !important;
-	}
-	td.seven {
-		width: 24% !important;
-	}
-	td.eight {
-		width: 46% !important;
-	}
-	td.nine {
-		width: 4% !important;
-	}
-	td.ten {
-		width: 30% !important;
-	}
-
-	p {
-		margin: 0 !important;
-		text-align: center !important;
-	}
 	
-	.panel {
-		padding-left: 10px !important;
-		padding-right: 10px !important;
+	mobile {
+		display: block; 
 	}
 }

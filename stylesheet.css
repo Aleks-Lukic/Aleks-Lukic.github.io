@@ -201,6 +201,27 @@ body {
 	transition: opacity 3s ease-out;
 }
 
+#wrapper_2 {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
+#wrapper_2_2 {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
+#delayedText_2 {
+	height: 100%;
+	width: 100%;
+	opacity: 0%;
+	transition: opacity 3s ease-out;
+}
+
 #gradbackground.two {
 	/*background-image: linear-gradient(to bottom, rgba(139,214,158, 0.3), white);*/
 	background-color: rgba(113,132,83, 0.15);
@@ -240,6 +261,31 @@ body {
 	background-size: cover;
 }
 
+#imageholder.three {
+	width: 100%;
+	background-image: 
+	linear-gradient(to bottom, rgba(9,104,199, 0.3), white), 
+	url("resources/Sava_Mila.jpg");
+	height: 60vh; 
+	position: relative;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#imageholder.four {
+	width: 100%;
+	background-image: 
+	linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.4) 30%, rgba(255, 255, 255, 0.4) 70%, white 100%), 
+	url("resources/117168084_1178110172563072_6531715487445287405_n_copy.jpg");
+	height: 60vh; 
+	position: relative;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 #textholder {
 	width: 40%;
 	height: auto;
@@ -264,8 +310,8 @@ body {
 
 #textdefault {
 	/*opacity: 1;*/
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 1.5vh;
+	margin-bottom: 1.5vh;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -294,7 +340,9 @@ body {
 	font-size: 3vh;
 	overflow: hidden;
 	height: auto; 
-	width: 100%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;

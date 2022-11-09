@@ -111,9 +111,6 @@
 					</div>
 					
 					<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 2.8vh;">
-						<h3 class = "two" style="text-align: center">Comments</h3><br>
-						<p style="text-align:justify !important">If you wish to leave a comment or start a discussion please feel free to enter your message below via your GitHub account.</p><br><br>
-
 						<script src = "https://utteranc.es/client.js"
 							repo = "Aleks-Lukic/Aleks-Lukic.github.io"
 							issue-term = "pathname"
@@ -139,7 +136,49 @@
 	</desktop>
 	
 	<mobile> 
+		<section>
+			<div id = "gradbackground" class = "one">
+				<div id = "holder">
+					<div id = "header">
+						<h1>
+							<div id = "textdefault">
+								<div>
+									&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
+									<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+										<a href = "https://www.savashelter.org">en</a> 
+											| 
+										<a href = "https://www.savashelter.org/de">de</a> 
+									</sub>
+								</div>
+							</div>
+							<img src="resources/SS_LOGO_transparent.png" style="width:20vw;"><br>
+						</h1><br><br><br>
+					</div>
+
+					<div id = "nav">
+						<div id = "textdefault">
+							<a href = "https://www.savashelter.org">Home</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/mission">Project</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/help">Ways to help</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/contact">Connect with us</a><br style = "margin-top: 0.9vh !important">
+						</div>
+					</div>
+				</div>
+				
+				<div id = "text" style="height:100vh;">
+					<div class="center" style = "top: 60%">
+						<div id = "delayedText2">
+							<hr style="width:50%; border: 1px solid #233A59;">
+							<p style="font-size:4vh; color: #233A59;">A new Hope for Stray Dogs in Bosnia</p>
+							<hr style="width:50%; border: 1px solid #233A59">
+						</div>
+					</div>
+				</div>
+				
+			</div>
 		
+		
+		</section>
 	</mobile>
 	
 	

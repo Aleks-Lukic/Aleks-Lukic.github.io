@@ -17,90 +17,140 @@
 
 
 <body>
-    <section>
-		<div id = "text" style="height:100vh;">
-			<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:6.2vh; height: 50px; z-index:99;">
-				<div>
-					&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-					<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:20px;">
-						<a href = "https://www.savashelter.org/contact" style="color:#233A59;">en</a> 
-							| 
-						<a href = "https://www.savashelter.org/de/contact" style="color:#233A59;">de</a>
-					</sub>
+	<desktop>
+		<section>
+			<div id = "text" style="height:100vh;">
+				<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:6.2vh; height: 50px; z-index:99;">
+					<div>
+						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
+						<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:20px;">
+							<a href = "https://www.savashelter.org/contact" style="color:#233A59;">en</a> 
+								| 
+							<a href = "https://www.savashelter.org/de/contact" style="color:#233A59;">de</a>
+						</sub>
+					</div>
+					<img src="../resources/SS_LOGO_transparent.png" style="width:10%; margin-top: 7px;">
 				</div>
-				<img src="../resources/SS_LOGO_transparent.png" style="width:10%; margin-top: 7px;">
-			</div>
-		
-			<div id = "textholder" style="height:100vh; width:60%; border-bottom: solid grey;  background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg');"">
-				<div class="centerleft" style="left:60%; top:40%">
-					<p>
-						<div id = "holder">
-							<div id = "header">
-								<h1>
-									<div id = "textdefault" style="color:#375d8f; font-size: 5vh;">&nbsp;Connect&nbsp;</div>
-								</h1><br>
-							</div><hr style="width:35%; border: 1px solid #375d8f">
+			
+				<div id = "textholder" style="height:100vh; width:60%; border-bottom: solid grey;  background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg');"">
+					<div class="centerleft" style="left:60%; top:40%">
+						<p>
+							<div id = "holder">
+								<div id = "header">
+									<h1>
+										<div id = "textdefault" style="color:#375d8f; font-size: 5vh;">&nbsp;Connect&nbsp;</div>
+									</h1><br>
+								</div><hr style="width:35%; border: 1px solid #375d8f">
 
-							<div id = "nav">
-								<div id = "textdefault">
-									<a href = "https://www.savashelter.org" style="color:#375d8f;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href = "https://www.savashelter.org/mission" style="color:#375d8f;">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href = "https://www.savashelter.org/help" style="color:#375d8f;">Ways to help</a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href = "https://www.savashelter.org/contact" style="color:#375d8f;">Connect with us</a>
+								<div id = "nav">
+									<div id = "textdefault">
+										<a href = "https://www.savashelter.org" style="color:#375d8f;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href = "https://www.savashelter.org/mission" style="color:#375d8f;">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href = "https://www.savashelter.org/help" style="color:#375d8f;">Ways to help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+										<a href = "https://www.savashelter.org/contact" style="color:#375d8f;">Connect with us</a>
+									</div>
 								</div>
 							</div>
+						</p>
+					</div>
+				</div>
+				
+				<div id = "imageholder" class = "one" style="width:40%; border-bottom: solid grey"></div>
+				
+			</div>
+
+
+			<div id = "article" style="min-height:100vh;">
+				<div id = "text">
+					<div id = "textholder" style="width: 28.5%; margin-left:35.75%; margin-right:35.75%; font-size: 3.1vh;">
+						<br><br><br>
+						<p style="font-size: 4.6vh; color: #233A59">Contact</p><hr style="width:80%; border: 1px solid #233A59"><br>
+						Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
+						Am Höllenberg 16<br>
+						07589 Bocka<br>
+						Germany<br>
+						<br><br>
+						<table style="border-collapse: collapse;">
+							<tr">
+								<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-envelope-o" aria-hidden="true" style="vertical-align:bottom"></i></td>
+								<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
+								<td style="vertical-align:middle; margin:0; padding-top:6px; padding-bottom:3px"><a href = "mailto:contact@savashelter.org" style="color:blue;">contact@savashelter.org</a></td>
+							</tr>
+							<tr">
+								<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-instagram fa-1x" aria-hidden="true" style="vertical-align:bottom"></i></td>
+								<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
+								<td style="vertical-align:middle; margin:0; padding-top:3px"><a href = "https://www.instagram.com/savashelter/" style="color:blue;">savashelter</a></td>
+							</tr>
+							<tr>
+								<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-facebook-official" aria-hidden="true" style="vertical-align:bottom"></i></td>
+								<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
+								<td style="vertical-align:middle; margin:0; padding-top:6px"><a href = "https://www.facebook.com/sava_shelter" style="color:blue;">Sava Shelter</a></td>
+							</tr>
+						</table>
+						<br><br><br><br>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<footer>
+			© 2022 www.savashelter.org
+		</footer>
+
+		<!-- Only shows on mobile -->
+		<footermedia>
+			© 2022 www.savashelter.org
+		</footermedia>
+	</desktop>
+	
+	<mobile> 
+		<section>
+			<div id = "gradbackground" class = "one">
+				<div id = "holder">
+					<div id = "header">
+						<h1>
+							<div id = "textdefault">
+								<div>
+									&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
+									<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+										<a href = "https://www.savashelter.org">en</a> 
+											| 
+										<a href = "https://www.savashelter.org/de">de</a> 
+									</sub>
+								</div>
+							</div>
+							<img src="resources/SS_LOGO_transparent.png" style="width:20vw;"><br>
+						</h1><br><br><br>
+					</div>
+
+					<div id = "nav">
+						<div id = "textdefault">
+							<a href = "https://www.savashelter.org">Home</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/mission">Project</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/help">Ways to help</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/contact">Connect with us</a><br style = "margin-top: 0.9vh !important">
 						</div>
-					</p>
+					</div>
 				</div>
-			</div>
-			
-			<div id = "imageholder" class = "one" style="width:40%; border-bottom: solid grey"></div>
-			
-		</div>
-
-
-        <div id = "article" style="min-height:100vh;">
-			<div id = "text">
-				<div id = "textholder" style="width: 28.5%; margin-left:35.75%; margin-right:35.75%; font-size: 3.1vh;">
-					<br><br><br>
-					<p style="font-size: 4.6vh; color: #233A59">Contact</p><hr style="width:80%; border: 1px solid #233A59"><br>
-					Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
-					Am Höllenberg 16<br>
-					07589 Bocka<br>
-					Germany<br>
-					<br><br>
-					<table style="border-collapse: collapse;">
-						<tr">
-							<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-envelope-o" aria-hidden="true" style="vertical-align:bottom"></i></td>
-							<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
-							<td style="vertical-align:middle; margin:0; padding-top:6px; padding-bottom:3px"><a href = "mailto:contact@savashelter.org" style="color:blue;">contact@savashelter.org</a></td>
-						</tr>
-						<tr">
-							<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-instagram fa-1x" aria-hidden="true" style="vertical-align:bottom"></i></td>
-							<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
-							<td style="vertical-align:middle; margin:0; padding-top:3px"><a href = "https://www.instagram.com/savashelter/" style="color:blue;">savashelter</a></td>
-						</tr>
-						<tr>
-							<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-facebook-official" aria-hidden="true" style="vertical-align:bottom"></i></td>
-							<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
-							<td style="vertical-align:middle; margin:0; padding-top:6px"><a href = "https://www.facebook.com/sava_shelter" style="color:blue;">Sava Shelter</a></td>
-						</tr>
-					</table>
-					<br><br><br><br>
+				
+				<div id = "text" style="height:100vh;">
+					<div class="center" style = "top: 60%">
+						<div id = "delayedText2">
+							<hr style="width:50%; border: 1px solid #233A59;">
+							<p style="font-size:4vh; color: #233A59;">A new Hope for Stray Dogs in Bosnia</p>
+							<hr style="width:50%; border: 1px solid #233A59">
+						</div>
+					</div>
 				</div>
+				
 			</div>
-        </div>
-
-    </section>
-
-    <footer>
-        © 2022 www.savashelter.org
-    </footer>
-
-    <!-- Only shows on mobile -->
-    <footermedia>
-        © 2022 www.savashelter.org
-    </footermedia>
+		
+		
+		</section>
+	</mobile>
+	
+	
 
     <!--
     <script>
