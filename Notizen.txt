@@ -1,9 +1,3 @@
-To-do:
-- "border(-bottom)" responsive machen (vh statt px) 
-- mobile Version der Website erstellen 
-- scroll Effekt?
-
-Done:
 - runde Buchstaben 
 - Leitfarbe grün (matt?) 
 - Navigation oben 
@@ -12,5 +6,3 @@ Done:
 - Unterseite "Connect with us" für Adresse, social media, etc. 
 
 * Links auf Symbolen statt auf Text?
-* Externe Links in neuem Tab öffnen
-
