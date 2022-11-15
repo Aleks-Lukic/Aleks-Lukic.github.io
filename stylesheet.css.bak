@@ -61,25 +61,9 @@ h1 {
 	height: 100%;
 }
 
-figure {
-	float: left;
-	margin: 10px 10px 10px 0;
-	width: 250px;
-	height: 250px;
-	display: table;
-	text-align: center !important;
-}
-
 figure img {
 	display: block;
 	width: 100%;
-}
-
-figcaption {
-	font-size: 12px;
-	display: table-caption;
-	caption-side: bottom;
-	text-align: center !important;
 }
 
 #box {
@@ -87,21 +71,6 @@ figcaption {
 	width: auto;
 	height: auto;
 	text-align: center;
-}
-
-.dot {
-	height: 13px;
-	width: 13px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-}
-.dotb {
-	height: 13px;
-	width: 13px;
-	background-color: blue;
-	border-radius: 50%;
-	display: inline-block;
 }
 
 table {
@@ -180,6 +149,26 @@ body {
 	background-size: cover;
 }
 
+#gradbackground.two {
+	/*background-image: linear-gradient(to bottom, rgba(139,214,158, 0.3), white);*/
+	background-color: rgba(113,132,83, 0.15);
+	height: 100%;
+	position: absolute;
+}
+
+#gradbackground.three {
+	background-image: 
+	linear-gradient(0deg, white 5%, rgba(255, 255, 255, 0) 35%),
+	url("resources/beach-g5d88068ca_1920.jpg");
+	/*background-color: rgba(46,131,54, 0.15);*/
+	height: 100vh;
+	width: 100%;
+	float: left;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #wrapper {
 	height: 100%;
 	width: 100%;
@@ -222,19 +211,12 @@ body {
 	transition: opacity 3s ease-out;
 }
 
-#gradbackground.two {
-	/*background-image: linear-gradient(to bottom, rgba(139,214,158, 0.3), white);*/
-	background-color: rgba(113,132,83, 0.15);
-	height: 100%;
-	position: absolute;
-}
-
 #holder {
     left: 0;
     right: 0;
 	position: absolute;
     top: 0;
-	border-bottom: 1px;
+	border-bottom: 0.1vh;
 }
 
 #imageholder.one {
@@ -264,7 +246,7 @@ body {
 #imageholder.three {
 	width: 100%;
 	background-image: 
-	linear-gradient(to bottom, rgba(9,104,199, 0.3), white), 
+	linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.4) 30%, rgba(255, 255, 255, 0.4) 70%, white 100%), 
 	url("resources/Sava_Mila.jpg");
 	height: 60vh; 
 	position: relative;
@@ -276,7 +258,7 @@ body {
 #imageholder.four {
 	width: 100%;
 	background-image: 
-	linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 50%, white 100%), 
+	linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.4) 30%, rgba(255, 255, 255, 0.4) 70%, white 100%), 
 	url("resources/117168084_1178110172563072_6531715487445287405_n_copy.jpg");
 	height: 60vh; 
 	position: relative;
@@ -320,18 +302,6 @@ body {
 	/*position: absolute;*/
 }
 
-/*
-#textscroll {
-	opacity: 0;
-	top: 0;
-	left: 0;
-	right:0;
-	bottom: 0;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-*/
-
 /* Create three columns/boxes that float next to each other */
 #nav {
 	float: left;
@@ -349,7 +319,7 @@ body {
 	transition: 0.3s;
 }
 #nav:hover { 
-	transform: translateX(0px) translateY(-1px) scale(1.05);
+	transform: translateX(0px) translateY(-0.1vh) scale(1.05);
 	transform-origin: center center;
 }
 #article {

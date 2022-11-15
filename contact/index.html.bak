@@ -6,7 +6,7 @@
 	
 	<link rel = "stylesheet" type = "text/css" href = "../stylesheet.css" media = "screen"/>
 	<link href = "https://fonts.googleapis.com/css?family=Baskerville|Cinzel|Great+Vibes|Marck+Script|Parisienne|Maven+Pro|Signika|Sacramento&display=swap" rel = "stylesheet">
-	<link href = "../resources/SS_Thumbnail_transparent_cropped.png" rel = "icon" type = "image/x-icon" />
+	<link href = "../resources/SS_android-chrome-512x512.png" rel = "icon" type = "image/png" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Helping Stray Dogs in Need!</title>
     <meta charset = "utf-8">
@@ -23,16 +23,16 @@
 				<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:6.2vh; height: 50px; z-index:99;">
 					<div>
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-						<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:20px;">
+						<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
 							<a href = "https://www.savashelter.org/contact" style="color:#233A59;">en</a> 
 								| 
 							<a href = "https://www.savashelter.org/de/contact" style="color:#233A59;">de</a>
 						</sub>
 					</div>
-					<img src="../resources/SS_LOGO_transparent.png" style="width:10%; margin-top: 7px;">
+					<img src="../resources/SS_android-chrome-512x512.png" style="width:10vw; margin-top: 1.3vh;">
 				</div>
 			
-				<div id = "textholder" style="height:100vh; width:60%; border-bottom: solid grey;  background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg');"">
+				<div id = "textholder" style="height:100vh; width:60%; border-bottom: 0.3vh solid grey;  background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg');"">
 					<div class="centerleft" style="left:60%; top:40%">
 						<p>
 							<div id = "holder">
@@ -40,7 +40,7 @@
 									<h1>
 										<div id = "textdefault" style="color:#375d8f; font-size: 5vh;">&nbsp;Connect&nbsp;</div>
 									</h1><br>
-								</div><hr style="width:35%; border: 1px solid #375d8f">
+								</div><hr style="width:35%; border: 0.1vh solid #375d8f">
 
 								<div id = "nav">
 									<div id = "textdefault">
@@ -55,23 +55,22 @@
 					</div>
 				</div>
 				
-				<div id = "imageholder" class = "one" style="width:40%; border-bottom: solid grey"></div>
+				<div id = "imageholder" class = "one" style="width:40%; border-bottom: 0.3vh solid grey"></div>
 				
 			</div>
 
 
 			<div id = "article" style="min-height:100vh;">
 				<div id = "text">
-					<div id = "textholder" style="width: 28.5%; margin-left:35.75%; margin-right:35.75%; font-size: 3.1vh;">
+					<div id = "textholder" style="width: 90%; margin-left:5%; margin-right:5%; font-size: 3.1vh;">
 						<br><br><br>
 						<center>
-							<p style="font-size: 4.6vh; color: #233A59">Contact</p><hr style="width:50%; border: 1px solid #233A59"><br>
+							<p style="font-size: 4.6vh; color: #233A59">Contact</p><hr style="width:25%; border: 0.1vh solid #233A59"><br>
 							Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
 							Am Höllenberg 16<br>
 							07589 Bocka<br>
 							Germany<br>
-						</center>
-						<br><br>
+						</center><br><br>
 						<center>
 							<table style="border-collapse: collapse;">
 								<tr">
@@ -110,21 +109,23 @@
 	
 	<mobile> 
 		<section>
-			<div id = "gradbackground" class = "one">
+			<div id = "gradbackground" class = "three">
 				<div id = "holder">
-					<div id = "header">
+					<div id = "header" style = "font-size: 3.6vh">
 						<h1>
 							<div id = "textdefault">
 								<div>
-									&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-									<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-										<a href = "https://www.savashelter.org">en</a> 
-											| 
-										<a href = "https://www.savashelter.org/de">de</a> 
-									</sub>
+									<nobr>
+										Connect with us
+										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+											<a href = "https://www.savashelter.org">en</a> 
+												| 
+											<a href = "https://www.savashelter.org/de">de</a> 
+										</sub>
+									</nobr>
 								</div>
 							</div>
-							<img src="../resources/SS_LOGO_transparent.png" style="width:20vw;"><br>
+							<img src="../resources/SS_android-chrome-512x512.png" style="width:20vw;"><br>
 						</h1><br><br><br>
 					</div>
 
@@ -139,11 +140,11 @@
 				</div>
 				
 				<div id = "text" style="height:100vh;">
-					<div class="center" style = "top: 60%">
+					<div class="center" style = "top: 70%">
 						<div id = "delayedText2">
-							<hr style="width:50%; border: 1px solid #233A59;">
-							<p style="font-size:4vh; color: #233A59;">A new Hope for Stray Dogs in Bosnia</p>
-							<hr style="width:50%; border: 1px solid #233A59">
+							<hr style="width:50%; border: 0.1vh solid #233A59;">
+							<p style="font-size:3.6vh; color: #233A59;">A new Hope for Stray Dogs in Bosnia</p>
+							<hr style="width:50%; border: 0.1vh solid #233A59">
 						</div>
 					</div>
 				</div>
@@ -155,7 +156,7 @@
 					<div id = "textholder" style="width: 90%; margin-left:5%; margin-right:5%; font-size: 3.1vh;">
 						<br><br><br>
 						<center>
-							<p style="font-size: 4.6vh; color: #233A59">Contact</p><hr style="width:50%; border: 1px solid #233A59"><br>
+							<p style="font-size: 4vh; color: #233A59">Contact</p><hr style="width:50%; border: 0.1vh solid #233A59"> <br>
 							Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
 							Am Höllenberg 16<br>
 							07589 Bocka<br>
@@ -197,43 +198,6 @@
 		</footermedia>
 		
 	</mobile>
-	
-	
-
-    <!--
-    <script>
-        // When the user scrolls down 50px from the top of the document, resize the header's font size
-
-        window.onscroll = function() {
-            scrollFunction()
-            /*scrollFunction2()*/
-        };
-		
-        function scrollFunction() {
-            if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
-                document.getElementById("header").style.fontSize = "18px";
-                document.getElementById("article").style.paddingTop = "70px";
-            } 
-            else {
-                document.getElementById("header").style.fontSize = "26px";
-                document.getElementById("article").style.paddingTop = "110px";
-            }
-        }
-
-        /*
-        function scrollFunction2() {
-            if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
-                document.getElementById("textdefault").style.opacity = "0";
-                document.getElementById("textscroll").style.opacity = "1";
-            } 
-            else {
-                document.getElementById("textdefault").style.opacity = "1";
-                document.getElementById("textscroll").style.opacity = "0";
-            }
-        }
-        */                  
-    </script>
-	-->
 	
 </body>
 </html>
