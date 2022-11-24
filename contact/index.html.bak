@@ -65,7 +65,7 @@
 					<div id = "textholder" style="width: 90%; margin-left:5%; margin-right:5%; font-size: 3.1vh;">
 						<br><br><br>
 						<center>
-							<p style="font-size: 4.6vh; color: #233A59">Contact</p><hr style="width:25%; border: 0.1vh solid #233A59"><br>
+							<p style="font-size: 4.6vh; color: #233A59">Contact</p><hr style="width:27.5%; border: 0.1vh solid #233A59"><br>
 							Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
 							Am Höllenberg 16<br>
 							07589 Bocka<br>
@@ -111,13 +111,13 @@
 		<section>
 			<div id = "gradbackground" class = "three">
 				<div id = "holder">
-					<div id = "header" style = "font-size: 3.6vh">
+					<div id = "header" style = "font-size: 3.4vh">
 						<h1>
 							<div id = "textdefault">
 								<div>
 									<nobr>
 										Connect with us
-										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
 											<a href = "https://www.savashelter.org">en</a> 
 												| 
 											<a href = "https://www.savashelter.org/de">de</a> 
@@ -125,7 +125,7 @@
 									</nobr>
 								</div>
 							</div>
-							<img src="../resources/SS_android-chrome-512x512.png" style="width:20vw;"><br>
+							<img src="../resources/SS_android-chrome-512x512.png" style="width:24vw;"><br>
 						</h1><br><br><br>
 					</div>
 

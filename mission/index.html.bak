@@ -72,7 +72,7 @@
 								<img src="../resources/BILD0999.JPG" style="width:75%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 							</div>
 							<div style="display: inline; width: 25%;">
-								<img src="../resources/radomir_dana.JPG" style="width:75%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
+								<img src="../resources/radomir_dana.jpg" style="width:75%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 							</div>
 							<div style="display: inline; width: 25%;">
 								<img src="../resources/IMG_0825.JPG" style="width:75%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
@@ -106,7 +106,7 @@
 							"our dog". From now on the waiting started, because Corona made transport to Germany very difficult, and so in April 2021 after moving to our house we 
 							drove to Serbia ourselves to pick up Sava.<br><br>
 							It was also immediately clear to us that we would drive as many dogs back as could fit in our car, so on the way back we were traveling with four dogs. 
-							Little Mila fell in love with our Sava and snuggled up to him. Since she didn't have a permanent position in Germany yet, we spontaneously took her in 
+							Little Mila fell in love with our Sava and snuggled up to him. Since she didn't have a permanent home in Germany yet, we spontaneously took her in 
 							with us and looking back, we couldn't be happier about it. The two showed us how wonderful it is to give these poor creatures the chance of a new life 
 							in a real family. It's so nice to see how they sleep in the warmth on cuddly blankets - without hunger and fear.<br><br>
 							We would love to take in all the dogs and regularly fantasize about how a third and fourth would fit into the pack. But since our families throw up their 
@@ -153,13 +153,13 @@
 		<section>
 			<div id = "gradbackground" class = "three">
 				<div id = "holder">
-					<div id = "header" style = "font-size: 3.6vh">
+					<div id = "header" style = "font-size: 3.4vh">
 						<h1>
 							<div id = "textdefault">
 								<div>
 									<nobr>
 										Project
-										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
 											<a href = "https://www.savashelter.org">en</a> 
 												| 
 											<a href = "https://www.savashelter.org/de">de</a> 
@@ -167,7 +167,7 @@
 									</nobr>
 								</div>
 							</div>
-							<img src="../resources/SS_android-chrome-512x512.png" style="width:20vw;"><br>
+							<img src="../resources/SS_android-chrome-512x512.png" style="width:24vw;"><br>
 						</h1><br><br><br>
 					</div>
 
@@ -217,7 +217,7 @@
 								<img src="../resources/BILD0999.JPG" style="width:65%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 							</div>
 							<div style="display: inline; width: 50%;">
-								<img src="../resources/radomir_dana.JPG" style="width:65%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
+								<img src="../resources/radomir_dana.jpg" style="width:65%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 							</div>
 						</div>
 						<div style="width: 100%; display: flex; text-align: center;">
@@ -236,7 +236,7 @@
 									<img src="../resources/IMG_0825.JPG" style="width:32.5%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 								</div>
 							</center>
-						</div></br>
+						</div>
 						<div style="width: 100%; display: flex; text-align: center;">
 							<div style="display: inline; width: 100%">
 								<center>
@@ -255,7 +255,7 @@
 							"our dog". From now on the waiting started, because Corona made transport to Germany very difficult, and so in April 2021 after moving to our house we 
 							drove to Serbia ourselves to pick up Sava.<br><br>
 							It was also immediately clear to us that we would drive as many dogs back as could fit in our car, so on the way back we were traveling with four dogs. 
-							Little Mila fell in love with our Sava and snuggled up to him. Since she didn't have a permanent position in Germany yet, we spontaneously took her in 
+							Little Mila fell in love with our Sava and snuggled up to him. Since she didn't have a permanent home in Germany yet, we spontaneously took her in 
 							with us and looking back, we couldn't be happier about it. The two showed us how wonderful it is to give these poor creatures the chance of a new life 
 							in a real family. It's so nice to see how they sleep in the warmth on cuddly blankets - without hunger and fear.<br><br>
 							We would love to take in all the dogs and regularly fantasize about how a third and fourth would fit into the pack. But since our families throw up their 
@@ -279,7 +279,7 @@
 							1. Construction of a fence to secure an area of ​​approx. 8,000 m²<br>
 							2. Development of the area with electricity and water<br>
 							3. Build a heated wooden shelter for at least 100 dogs (Bosnian winters can get bitterly cold!)<br><br>
-							The land is located here: <a href = "https://goo.gl/maps/uqZ5PsLTdmGmZFX88" style="color:blue;">https://goo.gl/maps/uqZ5PsLTdmGmZFX88</a>
+							The land is located here: <a href = "https://goo.gl/maps/uqZ5PsLTdmGmZFX88" style="color:blue; word-wrap: break-word;">https://goo.gl/maps/uqZ5PsLTdmGmZFX88</a>
 						</p>
 						<br><br><br><br>
 					</div>

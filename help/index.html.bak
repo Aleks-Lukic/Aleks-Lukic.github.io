@@ -94,15 +94,15 @@
 	
 	<mobile> 
 		<section>
-			<div id = "gradbackground" class = "one">
+			<div id = "gradbackground" class = "three">
 				<div id = "holder">
-					<div id = "header" style = "font-size: 3.6vh">
+					<div id = "header" style = "font-size: 3.4vh">
 						<h1>
 							<div id = "textdefault">
 								<div>
 									<nobr>
 										Ways to help
-										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
 											<a href = "https://www.savashelter.org">en</a> 
 												| 
 											<a href = "https://www.savashelter.org/de">de</a> 
@@ -110,7 +110,7 @@
 									</nobr>
 								</div>
 							</div>
-							<img src="../resources/SS_android-chrome-512x512.png" style="width:20vw;"><br>
+							<img src="../resources/SS_android-chrome-512x512.png" style="width:24vw;"><br>
 						</h1><br><br><br>
 					</div>
 
@@ -151,15 +151,24 @@
 						<p style="font-size: 4vh; color: #233A59">Bank details</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
 						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br></p>
 						<br><br><br>
-						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../resources/GoFundMe_logo.svg" style="width:28vw;"></a><br>
+						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../resources/GoFundMe_logo.svg" style="width:32vw;"></a><br>
 						<br><br><br>
-						<a href = "https://paypal.me/savashelter" target=”_blank”; style="color:blue;"><img src="../resources/PayPal.svg" style="width:28vw;"></a></center><br>
+						<a href = "https://paypal.me/savashelter" target=”_blank”; style="color:blue;"><img src="../resources/PayPal.svg" style="width:32vw;"></a></center><br>
 						<br><br><br>
 					</div>
 				</div>
 			</div>
 		
 		</section>
+		
+		<footer>
+			© 2022 www.savashelter.org
+		</footer>
+
+		<!-- Only shows on mobile -->
+		<footermedia>
+			© 2022 www.savashelter.org
+		</footermedia>
 	</mobile>
 	
 </body>

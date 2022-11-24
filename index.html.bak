@@ -146,13 +146,13 @@
 		<section>
 			<div id = "gradbackground" class = "three">
 				<div id = "holder">
-					<div id = "header" style = "font-size: 3.6vh">
+					<div id = "header" style = "font-size: 3.4vh">
 						<h1>
 							<div id = "textdefault">
 								<div>
 									<nobr>
 										Savashelter
-										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
 											<a href = "https://www.savashelter.org">en</a> 
 												| 
 											<a href = "https://www.savashelter.org/de">de</a> 
@@ -160,7 +160,7 @@
 									</nobr>
 								</div>
 							</div>
-							<img src="resources/SS_android-chrome-512x512.png" style="width:20vw;"><br>
+							<img src="resources/SS_android-chrome-512x512.png" style="width:24vw;"><br>
 						</h1><br><br><br>
 					</div>
 
@@ -175,7 +175,7 @@
 				</div>
 				
 				<div id = "text" style="height:100vh;">
-					<div class="center" style = "top: 60%">
+					<div class="center" style = "top: 70%">
 						<div id = "delayedText2">
 							<hr style="width:50%; border: 0.1vh solid #233A59;">
 							<p style="font-size:3.6vh; color: #233A59;">A new Hope for Stray Dogs in Bosnia</p>

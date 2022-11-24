@@ -72,7 +72,7 @@
 								<img src="../../resources/BILD0999.JPG" style="width:75%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 							</div>
 							<div style="display: inline; width: 25%;">
-								<img src="../../resources/radomir_dana.JPG" style="width:75%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
+								<img src="../../resources/radomir_dana.jpg" style="width:75%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 							</div>
 							<div style="display: inline; width: 25%;">
 								<img src="../../resources/IMG_0825.JPG" style="width:75%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
@@ -98,14 +98,14 @@
 						</div><br><br><br>
 						<p style="font-size: 4.9vh; color: #233A59">So fing alles an</p><hr style="width:50%; border: 0.1vh solid #233A59"> <br>
 						<p style="text-align:justify !important">Ich habe schon immer Tiere, aber vor allem Hunde geliebt. Anfang 2019 reiste ich durch Serbien und half einige 
-						Tage im Hundeheim Vucjak Shelter aus, da ich es liebe, in Gesellschaft so vieler Hunde zu sein und ihnen etwas Gutes zu tun. Danach unterstütze ich das 
+						Tage im Hundeheim Vučjak Shelter aus, da ich es liebe, in Gesellschaft so vieler Hunde zu sein und ihnen etwas Gutes zu tun. Danach unterstütze ich das 
 						Shelter monatlich finanziell von Deutschland aus und lernte meine heutige Frau Lima kennen. Gemeinsam haben wir immer von einem Haus und Hund geträumt.<br><br>
 						Für uns war dabei immer klar, dass es ein geretteter Hund sein sollte, da wir lieber einem armen Straßenhund (von denen es bereits so viele gibt!) ein 
-						gutes Leben ermöglichen, als einen extra angezüchteten Rassehund zu kaufen. Lima fand Sava dann Ende 2020 auf Dejans Instagram-Profil und wusste sofort, 
-						dass dies „unseren Hund“ sei. Von nun an ging die Warterei los, da Corona einen Transport nach Deutschland sehr schwierig machte, und so sind wir im 
-						April 2021 nach dem Umzug in unser Haus dann selbst nach Serbien gefahren, um Sava abzuholen..<br><br>
+						gutes Leben ermöglichen, als einen extra angezüchteten Rassehund zu kaufen. Lima fand Sava dann Ende 2020 auf dem Instagram-Profil von Vučjak Shelter und wusste sofort, 
+						dass dies „unser Hund“ ist. Von nun an ging die Warterei los, da Corona einen Transport nach Deutschland sehr schwierig machte, und so sind wir im 
+						April 2021 nach dem Umzug in unser Haus in Thüringen dann selbst nach Serbien gefahren, um Sava abzuholen.<br><br>
 						Uns war auch gleich klar, dass wir so viele Hunde zurückfahren, wie in unser Auto passen und so waren wir auf dem Rückweg mit vier Hunden unterwegs. 
-						Dabei verliebte sich die kleine Mila in unseren Sava und kuschelte sich ganz fest an ihn. Da sie noch keine endgültige Stelle in Deutschland hatte, 
+						Dabei verliebte sich die kleine Mila in unseren Sava und kuschelte sich ganz fest an ihn. Da sie noch keine endgültige Bleibe in Deutschland hatte, 
 						nahmen wir sie spontan mit auf und könnten darüber rückwirkend nicht glücklicher sein. Die beiden haben uns gezeigt, wie wunderbar es ist, diesen armen 
 						Geschöpfen die Chance auf ein neues Leben in einer richtigen Familie zu schenken. Es ist so schön zu sehen, wie sie im Warmen auf Kuscheldecken schlafen 
 						- ohne Hunger und Angst.<br><br>
@@ -157,21 +157,21 @@
 		<section>
 			<div id = "gradbackground" class = "three">
 				<div id = "holder">
-					<div id = "header" style = "font-size: 3.6vh">
+					<div id = "header" style = "font-size: 3.4vh">
 						<h1>
 							<div id = "textdefault">
 								<div>
 									<nobr>
 										Projekt
-										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-											<a href = "https://www.savashelter.org">en</a> 
+										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
+											<a href = "https://www.savashelter.org/mission">en</a> 
 												| 
-											<a href = "https://www.savashelter.org/de">de</a> 
+											<a href = "https://www.savashelter.org/de/mission">de</a> 
 										</sub>
 									</nobr>
 								</div>
 							</div>
-							<img src="../../resources/SS_android-chrome-512x512.png" style="width:20vw;"><br>
+							<img src="../../resources/SS_android-chrome-512x512.png" style="width:24vw;"><br>
 						</h1><br><br><br>
 					</div>
 
@@ -202,51 +202,63 @@
 					<div id = "textholder" style="width: 90%; margin-left:5%; margin-right:5%; font-size: 3.1vh;">
 						<br><br><br>
 						<div style="width: 100%; display: flex;">
-							<div style="display: inline; width: 50%;">
-								<img src="../../resources/20190912_140154_cropped.jpg" style="width:65%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
+							<center>
+								<div style="display: inline; width: 25%;">
+									<img src="../../resources/20190912_140154_cropped.jpg" style="width:32.5%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
+								</div>
+							</center>
+						</div>
+						<div style="width: 100%; display: flex; text-align: center;">
+							<div style="display: inline; width: 100%">
+								<center>
+									<p style="color: #233A59">Aleks & Lima Lukić</p>
+									<i style="font-size:2.5vh;">Gründer von Sava Shelter</i>
+								</center>
 							</div>
+						</div></br></br>
+						<div style="width: 100%; display: flex;">
 							<div style="display: inline; width: 50%;">
 								<img src="../../resources/BILD0999.JPG" style="width:65%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 							</div>
-						</div><br>
-						<div style="width: 100%; display: flex; text-align: center;">
-							<div style="display: inline; width: 50%">
-								<p style="color: #233A59">Aleks & Lima Lukić</p>
-								<i style="font-size:2.5vh;">Founders and managing<br> directors</i>
+							<div style="display: inline; width: 50%;">
+								<img src="../../resources/radomir_dana.jpg" style="width:65%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
 							</div>
+						</div>
+						<div style="width: 100%; display: flex; text-align: center;">
 							<div style="display: inline; width: 50%">
 								<p style="color: #233A59">Miloš & Ankica Lukić</p>
 								<i style="font-size:2.5vh;">Verwaltung & Administration</i>
 							</div>
-						</div></br>
-						<div style="width: 100%; display: flex;">
-							<div style="display: inline; width: 50%;">
-								<img src="../../resources/radomir_dana.JPG" style="width:65%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
-							</div>
-							<div style="display: inline; width: 50%;">
-								<img src="../../resources/IMG_0825.JPG" style="width:65%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
-							</div>
-						</div></br>
-						<div style="width: 100%; display: flex; text-align: center;">
 							<div style="display: inline; width: 50%">
 								<p style="color: #233A59">Radomir & Dana Maksimović</p>
 								<i style="font-size:2.5vh;">Verwaltung & Administration</i>
 							</div>
-							<div style="display: inline; width: 50%">
-								<p style="color: #233A59">Bojan Lukić</p>
-								<i style="font-size:2.5vh;">IT und Support</i>
+						</div></br></br>
+						<div style="width: 100%; display: flex;">
+							<center>
+								<div style="display: inline; width: 50%;">
+									<img src="../../resources/IMG_0825.JPG" style="width:32.5%; border-radius:50%; border: 0.2vh solid black; display: block; margin-left: auto; margin-right: auto;">
+								</div>
+							</center>
+						</div>
+						<div style="width: 100%; display: flex; text-align: center;">
+							<div style="display: inline; width: 100%">
+								<center>
+									<p style="color: #233A59">Bojan Lukić</p>
+									<i style="font-size:2.5vh;">IT und Support</i>
+								</center>
 							</div>
-						</div><br><br><br><br><br>
+						</div></br><br><br><br><br><br>
 						<p style="font-size: 4vh; color: #233A59">So fing alles an</p><hr style="width:50%; border: 0.1vh solid #233A59"> <br>
 						<p style="text-align:justify !important">Ich habe schon immer Tiere, aber vor allem Hunde geliebt. Anfang 2019 reiste ich durch Serbien und half einige 
-						Tage im Hundeheim Vucjak Shelter aus, da ich es liebe, in Gesellschaft so vieler Hunde zu sein und ihnen etwas Gutes zu tun. Danach unterstütze ich das 
+						Tage im Hundeheim Vučjak Shelter aus, da ich es liebe, in Gesellschaft so vieler Hunde zu sein und ihnen etwas Gutes zu tun. Danach unterstütze ich das 
 						Shelter monatlich finanziell von Deutschland aus und lernte meine heutige Frau Lima kennen. Gemeinsam haben wir immer von einem Haus und Hund geträumt.<br><br>
 						Für uns war dabei immer klar, dass es ein geretteter Hund sein sollte, da wir lieber einem armen Straßenhund (von denen es bereits so viele gibt!) ein 
-						gutes Leben ermöglichen, als einen extra angezüchteten Rassehund zu kaufen. Lima fand Sava dann Ende 2020 auf Dejans Instagram-Profil und wusste sofort, 
-						dass dies „unseren Hund“ sei. Von nun an ging die Warterei los, da Corona einen Transport nach Deutschland sehr schwierig machte, und so sind wir im 
-						April 2021 nach dem Umzug in unser Haus dann selbst nach Serbien gefahren, um Sava abzuholen..<br><br>
+						gutes Leben ermöglichen, als einen extra angezüchteten Rassehund zu kaufen. Lima fand Sava dann Ende 2020 auf dem Instagram-Profil von Vučjak Shelter und wusste sofort, 
+						dass dies „unser Hund“ ist. Von nun an ging die Warterei los, da Corona einen Transport nach Deutschland sehr schwierig machte, und so sind wir im 
+						April 2021 nach dem Umzug in unser Haus in Thüringen dann selbst nach Serbien gefahren, um Sava abzuholen.<br><br>
 						Uns war auch gleich klar, dass wir so viele Hunde zurückfahren, wie in unser Auto passen und so waren wir auf dem Rückweg mit vier Hunden unterwegs. 
-						Dabei verliebte sich die kleine Mila in unseren Sava und kuschelte sich ganz fest an ihn. Da sie noch keine endgültige Stelle in Deutschland hatte, 
+						Dabei verliebte sich die kleine Mila in unseren Sava und kuschelte sich ganz fest an ihn. Da sie noch keine endgültige Bleibe in Deutschland hatte, 
 						nahmen wir sie spontan mit auf und könnten darüber rückwirkend nicht glücklicher sein. Die beiden haben uns gezeigt, wie wunderbar es ist, diesen armen 
 						Geschöpfen die Chance auf ein neues Leben in einer richtigen Familie zu schenken. Es ist so schön zu sehen, wie sie im Warmen auf Kuscheldecken schlafen 
 						- ohne Hunger und Angst.<br><br>
@@ -272,7 +284,7 @@
 						1. Aufbau eines Zaunes, um ein Gebiet von ca. 8.000 m² zu sichern<br>
 						2.	Erschließung des Areals mit Strom und Wasser<br>
 						3.	Errichtung eines beheizten Unterschlupfes aus Holz für mindestens 100 Hunde (bosnische Winter können bitterkalt werden!)<br><br>
-						Das Land befindet sich hier: <a href = "https://goo.gl/maps/uqZ5PsLTdmGmZFX88" style="color:blue;">https://goo.gl/maps/uqZ5PsLTdmGmZFX88</a><br><br>
+						Das Land befindet sich hier: <a href = "https://goo.gl/maps/uqZ5PsLTdmGmZFX88" style="color:blue; word-wrap: break-word;">https://goo.gl/maps/uqZ5PsLTdmGmZFX88</a><br><br>
 						Die Hauptstromleitung ist bereits in der Nähe vorhanden und muss nur einige hundert Meter weiter zum Areal geführt werden. Eine städtische 
 						Wasserleitung läuft direkt neben dem Areal entlang, sodass lediglich eine Abzweigung errichtet werden muss. Wir sind bereits im Austausch mit den lokalen 
 						Energie- und Wasserversorgern.
