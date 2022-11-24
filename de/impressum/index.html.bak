@@ -32,7 +32,7 @@
 					<img src="../resources/SS_android-chrome-512x512.png" style="width:10vw; margin-top: 1.3vh;">
 				</div>
 			
-				<div id = "textholder" style="height:100vh; width:60%; border-bottom: 0.3vh solid grey;  background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg'); background-repeat: no-repeat; background-size: cover;">
+				<div id = "textholder" style="height:100vh; width:60%; border-bottom: 0.3vh solid grey;  background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg');"">
 					<div class="centerleft" style="left:60%; top:40%">
 						<p>
 							<div id = "holder">
@@ -98,12 +98,12 @@
 		</section>
 
 		<footer>
-			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/impressum">Impressum</a>
+			© 2022 www.savashelter.org
 		</footer>
 
 		<!-- Only shows on mobile -->
 		<footermedia>
-			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/impressum">Impressum</a>
+			© 2022 www.savashelter.org
 		</footermedia>
 	</desktop>
 	
