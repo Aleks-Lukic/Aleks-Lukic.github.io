@@ -24,15 +24,18 @@
 					<div>
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
 						<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-							<a href = "https://www.savashelter.org/contact" style="color:#233A59;">en</a> 
-								| 
-							<a href = "https://www.savashelter.org/de/contact" style="color:#233A59;">de</a>
+							<div style = "border-bottom: solid #233A59;">
+								<a href = "https://www.savashelter.org" style = "color:#233A59;">en</a> 
+									| 
+								<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a><br>
+							</div>
+							<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 						</sub>
 					</div>
 					<img src="../../resources/SS_android-chrome-512x512.png" style="width:10vw; margin-top: 1.3vh;">
 				</div>
 			
-				<div id = "textholder" style="height:100vh; width:60%; border-bottom: 0.3vh solid grey;  background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../../resources/beach-g5d88068ca_1920_rotated.jpg');"">
+				<div id = "textholder" style="height:100vh; width:60%; border-bottom: 0.3vh solid grey;  background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../../resources/beach-g5d88068ca_1920_rotated.jpg'); background-repeat: no-repeat; background-size: cover;">
 					<div class="centerleft" style="left:60%; top:40%">
 						<p>
 							<div id = "holder">
@@ -66,8 +69,7 @@
 						<br><br><br>
 						<center>
 							<p style="font-size: 4.6vh; color: #233A59">Kontakt</p><hr style="width:27.5%; border: 0.1vh solid #233A59"><br>
-							Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
-							Am Höllenberg 16<br>
+							Sava Shelter e.V. (Reg. Nr. VR 281654)<br><br>
 							07589 Bocka<br>
 							Germany<br>
 						</center><br><br>
@@ -76,7 +78,7 @@
 								<tr">
 									<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-envelope-o" aria-hidden="true" style="vertical-align:bottom"></i></td>
 									<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
-									<td style="vertical-align:middle; margin:0; padding-top:6px; padding-bottom:3px"><a href = "mailto:contact@savashelter.org" style="color:blue;">contact@savashelter.org</a></td>
+									<td style="vertical-align:middle; margin:0; padding-top:6px; padding-bottom:3px"><a href = "mailto:contact@savashelter.org" style="color:blue;">contact(ät)savashelter.org</a></td>
 								</tr>
 								<tr">
 									<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-instagram fa-1x" aria-hidden="true" style="vertical-align:bottom"></i></td>
@@ -98,12 +100,12 @@
 		</section>
 
 		<footer>
-			© 2022 www.savashelter.org
+			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/de/impressum" style = "color: black;">Impressum</a>
 		</footer>
 
 		<!-- Only shows on mobile -->
 		<footermedia>
-			© 2022 www.savashelter.org
+			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/de/impressum" style = "color: black;">Impressum</a>
 		</footermedia>
 	</desktop>
 	
@@ -117,10 +119,13 @@
 								<div>
 									<nobr>
 										Kontakt
-										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
-											<a href = "https://www.savashelter.org/contact">en</a> 
-												| 
-											<a href = "https://www.savashelter.org/de/contact">de</a> 
+										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+											<div style = "border-bottom: solid white;">
+												<a href = "https://www.savashelter.org">en</a> 
+													| 
+												<a href = "https://www.savashelter.org/de">de</a><br>
+											</div>
+											<a href = "https://www.savashelter.org/sr">sr</a>
 										</sub>
 									</nobr>
 								</div>
@@ -157,8 +162,7 @@
 						<br><br><br>
 						<center>
 							<p style="font-size: 4vh; color: #233A59">Kontakt</p><hr style="width:50%; border: 0.1vh solid #233A59"><br>
-							Sava Shelter e.V. (Reg. Nr. VR 281654)<br>
-							Am Höllenberg 16<br>
+							Sava Shelter e.V. (Reg. Nr. VR 281654)<br><br>
 							07589 Bocka<br>
 							Germany<br>
 						</center><br><br>
@@ -167,7 +171,7 @@
 								<tr">
 									<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-envelope-o" aria-hidden="true" style="vertical-align:bottom"></i></td>
 									<td style="vertical-align:middle; margin:0; padding:0">&nbsp;&nbsp;</td>
-									<td style="vertical-align:middle; margin:0; padding-top:6px; padding-bottom:3px"><a href = "mailto:contact@savashelter.org" style="color:blue;">contact@savashelter.org</a></td>
+									<td style="vertical-align:middle; margin:0; padding-top:6px; padding-bottom:3px"><a href = "mailto:contact@savashelter.org" style="color:blue;">contact(ät)savashelter.org</a></td>
 								</tr>
 								<tr">
 									<td style="vertical-align:middle; margin:0; padding:0"><i class="fa fa-instagram fa-1x" aria-hidden="true" style="vertical-align:bottom"></i></td>
@@ -189,12 +193,12 @@
 		</section>
 		
 		<footer>
-			© 2022 www.savashelter.org
+			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/de/impressum" style = "color: black;">Impressum</a>
 		</footer>
 
 		<!-- Only shows on mobile -->
 		<footermedia>
-			© 2022 www.savashelter.org
+			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/de/impressum style = "color: black;">Impressum</a>
 		</footermedia>
 		
 	</mobile>

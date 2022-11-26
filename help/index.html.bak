@@ -23,15 +23,18 @@
 					<div>
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
 						<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-							<a href = "https://www.savashelter.org/help" style="color:#233A59;">en</a> 
-								| 
-							<a href = "https://www.savashelter.org/de/help" style="color:#233A59;">de</a>
+							<div style = "border-bottom: solid #233A59;">
+								<a href = "https://www.savashelter.org" style = "color:#233A59;">en</a> 
+									| 
+								<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a><br>
+							</div>
+							<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 						</sub>
 					</div>
 					<img src="../resources/SS_android-chrome-512x512.png" style="width:10vw; margin-top: 1.3vh;">
 				</div>
 			
-				<div id = "textholder" style="height:100vh; width:60%; border-bottom: 0.3vh solid grey; background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg');"">
+				<div id = "textholder" style="height:100vh; width:60%; border-bottom: 0.3vh solid grey; background-image: linear-gradient(to right, rgba(255,255,255, 0.5), white), url('../resources/beach-g5d88068ca_1920_rotated.jpg'); background-repeat: no-repeat; background-size: cover;">
 					<div class="centerleft" style="left:60%; top:40%">
 						<p>
 							<div id = "holder">
@@ -69,8 +72,8 @@
 						</p><br><br><br><br>
 						
 						<p style="font-size: 4.6vh; color: #233A59">Bank details</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
-						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br></p>
-						<br><br><br>
+						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br>Or just use one of these links:</p>
+						<br><br>
 						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../resources/GoFundMe_logo.svg" style="width:16vw;"></a><br>
 						<br><br><br>
 						<a href = "https://paypal.me/savashelter" target=”_blank”; style="color:blue;"><img src="../resources/PayPal.svg" style="width:16vw;"></a></center><br>
@@ -82,12 +85,12 @@
 		</section>
 
 		<footer>
-			© 2022 www.savashelter.org
+			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/impressum" style = "color: black;">Impressum</a>
 		</footer>
 
 		<!-- Only shows on mobile -->
 		<footermedia>
-			© 2022 www.savashelter.org
+			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/impressum" style = "color: black;">Impressum</a>
 		</footermedia>
 		
 	</desktop>
@@ -149,11 +152,11 @@
 						</p><br><br><br><br>
 						
 						<p style="font-size: 4vh; color: #233A59">Bank details</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
-						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br></p>
+						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br>Or just use one of these links:</p>
+						<br><br>
+						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../resources/GoFundMe_logo.svg" style="width:42vw;"></a><br>
 						<br><br><br>
-						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../resources/GoFundMe_logo.svg" style="width:32vw;"></a><br>
-						<br><br><br>
-						<a href = "https://paypal.me/savashelter" target=”_blank”; style="color:blue;"><img src="../resources/PayPal.svg" style="width:32vw;"></a></center><br>
+						<a href = "https://paypal.me/savashelter" target=”_blank”; style="color:blue;"><img src="../resources/PayPal.svg" style="width:42vw;"></a></center><br>
 						<br><br><br>
 					</div>
 				</div>
@@ -162,12 +165,12 @@
 		</section>
 		
 		<footer>
-			© 2022 www.savashelter.org
+			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/impressum" style = "color: black;">Impressum</a>
 		</footer>
 
 		<!-- Only shows on mobile -->
 		<footermedia>
-			© 2022 www.savashelter.org
+			© 2022 www.savashelter.org | <a href = "https://www.savashelter.org/impressum" style = "color: black;">Impressum</a>
 		</footermedia>
 	</mobile>
 	

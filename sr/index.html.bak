@@ -43,10 +43,10 @@
 
 					<div id = "nav">
 						<div id = "textdefault">
-							<a href = "https://www.savashelter.org/de">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-							<a href = "https://www.savashelter.org/de/mission">Projekt</a>&nbsp;&nbsp;&nbsp;&nbsp;
-							<a href = "https://www.savashelter.org/de/help">So kannst Du helfen</a>&nbsp;&nbsp;&nbsp;&nbsp;
-							<a href = "https://www.savashelter.org/de/contact">Kontakt</a>
+							<a href = "https://www.savashelter.org/sr">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href = "https://www.savashelter.org/sr/mission">Projekt</a>&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href = "https://www.savashelter.org/sr/help">So kannst Du helfen</a>&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href = "https://www.savashelter.org/sr/contact">Kontakt</a>
 						</div>
 					</div>
 				</div>
@@ -165,10 +165,13 @@
 								<div>
 									<nobr>
 										Savashelter
-										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
-											<a href = "https://www.savashelter.org">en</a> 
-												| 
-											<a href = "https://www.savashelter.org/de">de</a> 
+										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+											<div style = "border-bottom: solid #233A59;">
+												<a href = "https://www.savashelter.org" style = "color:#233A59;">en</a> 
+													| 
+												<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a><br>
+											</div>
+											<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 										</sub>
 									</nobr>
 								</div>
@@ -179,10 +182,10 @@
 
 					<div id = "nav">
 						<div id = "textdefault">
-							<a href = "https://www.savashelter.org/de">Home</a><br style = "margin-top: 0.9vh !important">
-							<a href = "https://www.savashelter.org/de/mission">Projekt</a><br style = "margin-top: 0.9vh !important">
-							<a href = "https://www.savashelter.org/de/help">So kannst Du helfen</a><br style = "margin-top: 0.9vh !important">
-							<a href = "https://www.savashelter.org/de/contact">Kontakt</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/sr">Home</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/sr/mission">Projekt</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/sr/help">So kannst Du helfen</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/sr/contact">Kontakt</a><br style = "margin-top: 0.9vh !important">
 						</div>
 					</div>
 				</div>
