@@ -73,7 +73,7 @@
 						</p><br><br><br><br>
 						
 						<p style="font-size: 4.6vh; color: #233A59">Bankverbindung</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
-						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br>Oder nutze einen der folgenden Links:</p>
+						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br><br><b>Oder nutze einen der folgenden Links:</b></p>
 						<br><br>
 						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../../resources/GoFundMe_logo.svg" style="width:16vw;"></a><br>
 						<br><br><br>
@@ -105,7 +105,7 @@
 							<div id = "textdefault">
 								<div>
 									<nobr>
-										Hilf uns
+										<br>Savashelter
 										<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 											<div>
 												<a href = "https://www.savashelter.org">en</a> 
@@ -117,27 +117,17 @@
 										</sub>
 									</nobr>
 								</div>
-							</div>
-							<img src="../../resources/SS_android-chrome-512x512.png" style="width:24vw;"><br>
-						</h1><br><br><br>
+							</div><br>
+							<img src="resources/SS_android-chrome-512x512.png" style="width:24vw;"><br>
+						</h1>
 					</div>
 
 					<div id = "nav">
-						<div id = "textdefault">
-							<a href = "https://www.savashelter.org/sr">Home</a><br style = "margin-top: 0.9vh !important">
-							<a href = "https://www.savashelter.org/sr/mission">Projekt</a><br style = "margin-top: 0.9vh !important">
-							<a href = "https://www.savashelter.org/sr/help">So kannst Du helfen</a><br style = "margin-top: 0.9vh !important">
-							<a href = "https://www.savashelter.org/sr/contact">Kontakt</a><br style = "margin-top: 0.9vh !important">
-						</div>
-					</div>
-				</div>
-				
-				<div id = "text" style="height:100vh;">
-					<div class="center" style = "top: 70%">
-						<div id = "delayedText2">
-							<hr style="width:50%; border: 0.1vh solid #233A59;">
-							<p style="font-size:3.6vh; color: #233A59;">Eine neue Hoffnung für Straßenhunde in Bosnien</p>
-							<hr style="width:50%; border: 0.1vh solid #233A59">
+						<div id = "textdefault"><br>
+							<a href = "https://www.savashelter.org" style="color: #233A59">Home</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/mission" style="color: #233A59">Project</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/help" style="color: #233A59">Ways to help</a><br style = "margin-top: 0.9vh !important">
+							<a href = "https://www.savashelter.org/contact" style="color: #233A59">Connect with us</a><br style = "margin-top: 0.9vh !important">
 						</div>
 					</div>
 				</div>
@@ -157,7 +147,7 @@
 						</p><br><br><br><br>
 						
 						<p style="font-size: 4vh; color: #233A59">Bankverbindung</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
-						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br>Oder nutze einen der folgenden Links:</p>
+						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br><br><b>Oder nutze einen der folgenden Links:</b></p>
 						<br><br>
 						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../../resources/GoFundMe_logo.svg" style="width:42vw;"></a><br>
 						<br><br><br>

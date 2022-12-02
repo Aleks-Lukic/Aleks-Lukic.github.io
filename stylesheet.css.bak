@@ -222,6 +222,7 @@ body {
 	width: 40%;
 	height: auto;
 	float: left;
+	z-index: 99;
 }
 
 /* Style the header */
