@@ -23,13 +23,14 @@
 				<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:6.2vh; height: 50px; z-index:99;">
 					<div>
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-						<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-							<div style = "border-bottom: solid #233A59;">
+						<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
+							<div>
 								<a href = "https://www.savashelter.org" style = "color:#233A59;">en</a> 
 									| 
-								<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a><br>
+								<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a>
+									| 
+								<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 							</div>
-							<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 						</sub>
 					</div>
 					<img src="../resources/SS_android-chrome-512x512.png" style="width:10vw; margin-top: 1.3vh;">
@@ -119,10 +120,13 @@
 								<div>
 									<nobr>
 										Connect with us
-										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
-											<a href = "https://www.savashelter.org">en</a> 
-												| 
-											<a href = "https://www.savashelter.org/de">de</a> 
+										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+											<div style = "border-bottom: solid white;">
+												<a href = "https://www.savashelter.org">en</a> 
+													| 
+												<a href = "https://www.savashelter.org/de">de</a><br>
+											</div>
+											<a href = "https://www.savashelter.org/sr">sr</a>
 										</sub>
 									</nobr>
 								</div>

@@ -22,13 +22,14 @@
 				<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:6.2vh; height: 50px; z-index:99;">
 					<div>
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-						<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-							<div style = "border-bottom: solid #233A59;">
+						<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
+							<div>
 								<a href = "https://www.savashelter.org" style = "color:#233A59;">en</a> 
 									| 
-								<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a><br>
+								<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a>
+									| 
+								<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 							</div>
-							<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 						</sub>
 					</div>
 					<img src="../resources/SS_android-chrome-512x512.png" style="width:10vw; margin-top: 1.3vh;">
@@ -72,7 +73,7 @@
 						</p><br><br><br><br>
 						
 						<p style="font-size: 4.6vh; color: #233A59">Bank details</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
-						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br>Or just use one of these links:</p>
+						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br><br><b>Or just use one of these links:</b></p>
 						<br><br>
 						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../resources/GoFundMe_logo.svg" style="width:16vw;"></a><br>
 						<br><br><br>
@@ -105,10 +106,14 @@
 								<div>
 									<nobr>
 										Ways to help
-										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
-											<a href = "https://www.savashelter.org">en</a> 
-												| 
-											<a href = "https://www.savashelter.org/de">de</a> 
+										<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
+											<div>
+												<a href = "https://www.savashelter.org">en</a> 
+													| 
+												<a href = "https://www.savashelter.org/de">de</a>
+													| 
+												<a href = "https://www.savashelter.org/sr">sr</a>
+											</div>
 										</sub>
 									</nobr>
 								</div>
@@ -152,7 +157,7 @@
 						</p><br><br><br><br>
 						
 						<p style="font-size: 4vh; color: #233A59">Bank details</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
-						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br>Or just use one of these links:</p>
+						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br><b>Or just use one of these links:</b></p>
 						<br><br>
 						<center><a href = "https://gofund.me/6999d83c" target=”_blank”; style="color:blue;"><img src="../resources/GoFundMe_logo.svg" style="width:42vw;"></a><br>
 						<br><br><br>

@@ -22,13 +22,14 @@
 				<div id = "textdefault" style="position: absolute; color:#233A59; text-align:center; font-size:6.2vh; height: 50px; z-index:99;">
 					<div>
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-						<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-							<div style = "border-bottom: solid #233A59;">
+						<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
+							<div>
 								<a href = "https://www.savashelter.org" style = "color:#233A59;">en</a> 
 									| 
-								<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a><br>
+								<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a>
+									| 
+								<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 							</div>
-							<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 						</sub>
 					</div>
 					<img src="../../resources/SS_android-chrome-512x512.png" style="width:10vw; margin-top: 1.3vh;">
@@ -101,21 +102,20 @@
 						</div><br><br><br>
 						<p style="font-size: 4.9vh; color: #233A59">So fing alles an</p><hr style="width:50%; border: 0.1vh solid #233A59"> <br>
 						<p style="text-align:justify !important">Ich habe schon immer Tiere, aber vor allem Hunde geliebt. Anfang 2019 reiste ich durch Serbien und half einige 
-						Tage im Hundeheim Vučjak Shelter aus, da ich es liebe, in Gesellschaft so vieler Hunde zu sein und ihnen etwas Gutes zu tun. Danach unterstütze ich das 
-						Shelter monatlich finanziell von Deutschland aus und lernte meine heutige Frau Lima kennen. Gemeinsam haben wir immer von einem Haus und Hund geträumt.<br><br>
-						Für uns war dabei immer klar, dass es ein geretteter Hund sein sollte, da wir lieber einem armen Straßenhund (von denen es bereits so viele gibt!) ein 
+						Tage im Hundeheim Vučjak Shelter aus, da ich es genieße, in Gesellschaft so vieler Hunde zu sein und ihnen etwas Gutes zu tun. Danach unterstütze ich das 
+						Vučjak Shelter monatlich finanziell von Deutschland aus und lernte meine heutige Frau Lima kennen. Gemeinsam haben wir immer von einem Haus und Hund geträumt.<br><br>
+						Für uns war dabei immer klar, dass es ein geretteter Hund sein sollte, da wir lieber einem Straßenhund (von denen es bereits so viele gibt!) ein 
 						gutes Leben ermöglichen, als einen extra angezüchteten Rassehund zu kaufen. Lima fand Sava dann Ende 2020 auf dem Instagram-Profil von Vučjak Shelter und wusste sofort, 
 						dass dies „unser Hund“ ist. Von nun an ging die Warterei los, da Corona einen Transport nach Deutschland sehr schwierig machte, und so sind wir im 
 						April 2021 nach dem Umzug in unser Haus in Thüringen dann selbst nach Serbien gefahren, um Sava abzuholen.<br><br>
-						Uns war auch gleich klar, dass wir so viele Hunde zurückfahren, wie in unser Auto passen und so waren wir auf dem Rückweg mit vier Hunden unterwegs. 
-						Dabei verliebte sich die kleine Mila in unseren Sava und kuschelte sich ganz fest an ihn. Da sie noch keine endgültige Bleibe in Deutschland hatte, 
-						nahmen wir sie spontan mit auf und könnten darüber rückwirkend nicht glücklicher sein. Die beiden haben uns gezeigt, wie wunderbar es ist, diesen armen 
+						Wir hatten mit Vučjak Shelter vereinbart, dass wir bei dieser Gelegenheit gleich noch weitere Adoptivhunde mitnehmen, und so waren wir auf dem Rückweg mit vier Hunden unterwegs. 
+						Dabei verliebte sich die kleine Mila in unseren Sava und kuschelte sich ganz fest an ihn. Da sie nur eine temporäre Bleibe in Deutschland hatte, 
+						nahmen wir sie spontan mit auf und könnten darüber rückblickend nicht glücklicher sein. Die beiden haben uns gezeigt, wie wunderbar es ist, diesen armen 
 						Geschöpfen die Chance auf ein neues Leben in einer richtigen Familie zu schenken. Es ist so schön zu sehen, wie sie im Warmen auf Kuscheldecken schlafen 
 						- ohne Hunger und Angst.<br><br>
 						Wir würden am liebsten alle Hunde bei uns aufnehmen und fantasieren regelmäßig darüber, wie ein dritter und vierter sich wohl ins Rudel einfügen würden. 
-						Da unsere Familien bei diesen Gedanken aber erschrocken die Hände über den Köpfen zusammenschlagen und uns monatliche Geldspenden allein aber auch nicht 
-						zufriedenstellen, möchten wir einen Schritt weiter gehen. Wir wollen selbst proaktiv einen sicheren Ort für Hunde in Bosnien aufbauen und die Leben der 
-						armen Seelen bereichern.
+						Da unsere Familien bei diesen Gedanken aber erschrocken die Hände über den Köpfen zusammenschlagen und uns monatliche Geldspenden allein aber auch nicht
+						zufriedenstellen, möchten wir einen Schritt weiter gehen. Wir wollen selbst proaktiv einen sicheren Ort für Hunde in Bosnien aufbauen und die ihr Dasein dort etwas erträglicher machen.
 						</p>
 						<br><br><br><br>
 						
@@ -166,10 +166,13 @@
 								<div>
 									<nobr>
 										Projekt
-										<sub style="position:absolute; font-size:2.3vh; align:bottom; margin-left:1vw;">
-											<a href = "https://www.savashelter.org/mission">en</a> 
-												| 
-											<a href = "https://www.savashelter.org/de/mission">de</a> 
+										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
+											<div style = "border-bottom: solid white;">
+												<a href = "https://www.savashelter.org">en</a> 
+													| 
+												<a href = "https://www.savashelter.org/de">de</a><br>
+											</div>
+											<a href = "https://www.savashelter.org/sr">sr</a>
 										</sub>
 									</nobr>
 								</div>

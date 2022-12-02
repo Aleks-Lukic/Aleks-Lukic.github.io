@@ -24,17 +24,16 @@
 						<h1>
 							<div id = "textdefault">
 								<div>
-									<nobr>
-										&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
-										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-											<div style = "border-bottom: solid white;">
-												<a href = "https://www.savashelter.org">en</a> 
-													| 
-												<a href = "https://www.savashelter.org/de">de</a><br>
-											</div>
+									&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R&nbsp;
+									<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
+										<div>
+											<a href = "https://www.savashelter.org">en</a> 
+												| 
+											<a href = "https://www.savashelter.org/de">de</a>
+												| 
 											<a href = "https://www.savashelter.org/sr">sr</a>
-										</sub>
-									</nobr>
+										</div>
+									</sub>
 								</div>
 							</div>
 							<img src="../resources/SS_android-chrome-512x512.png" style="width:10vw;">
@@ -121,9 +120,9 @@
 					</div>
 					
 					<!-- Remarkbox - Your readers want to communicate with you -->
-					<div id="remarkbox-div">
+					<div id="remarkbox-div" style="width: 50%; margin-left: 25%; margin-right: 25%;">
 						<noscript>
-							<iframe id=remarkbox-iframe src="https://my.remarkbox.com/embed?nojs=true" style="height:600px;width: 50%; margin-left:25%; margin-right:25%;border:none!important" tabindex=0></iframe>
+							<iframe id=remarkbox-iframe src="https://my.remarkbox.com/embed?nojs=true" style="height:600px;width: 100%; border:none!important" tabindex=0></iframe>
 						</noscript>
 					</div>
 					
@@ -165,13 +164,14 @@
 								<div>
 									<nobr>
 										Savashelter
-										<sub style="position:absolute; font-size:2.5vh; align:bottom; margin-left:1vw;">
-											<div style = "border-bottom: solid #233A59;">
-												<a href = "https://www.savashelter.org" style = "color:#233A59;">en</a> 
+										<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
+											<div>
+												<a href = "https://www.savashelter.org">en</a> 
 													| 
-												<a href = "https://www.savashelter.org/de" style = "color:#233A59;">de</a><br>
+												<a href = "https://www.savashelter.org/de">de</a>
+													| 
+												<a href = "https://www.savashelter.org/sr">sr</a>
 											</div>
-											<a href = "https://www.savashelter.org/sr" style = "color:#233A59;">sr</a>
 										</sub>
 									</nobr>
 								</div>
@@ -260,9 +260,9 @@
 					</div>
 					
 					<!-- Remarkbox - Your readers want to communicate with you -->
-					<div id="remarkbox-div">
+					<div id="remarkbox-div" style="width: 90%; margin-left: 5%; margin-right: 5%;">
 						<noscript>
-							<iframe id=remarkbox-iframe src="https://my.remarkbox.com/embed?nojs=true" style="height:600px;width: 90%; margin-left:5%; margin-right:5%;border:none!important" tabindex=0></iframe>
+							<iframe id=remarkbox-iframe src="https://my.remarkbox.com/embed?nojs=true" style="height:600px;width: 100%; border:none!important" tabindex=0></iframe>
 						</noscript>
 					</div>
 					
