@@ -327,6 +327,12 @@ mobile {
 	display: none;
 }
 
+#comment-block {
+	width: 50%; 
+	margin-left: 25%; 
+	margin-right: 25%
+}
+
 footer {
 	bottom: 0;
 	margin-left: auto;
@@ -354,5 +360,11 @@ footermedia {
 	
 	mobile {
 		display: block; 
+	}
+	
+	#comment-block {
+		width: 90% !important; 
+		margin-left: 5% !important; 
+		margin-right: 5% !important;
 	}
 }
