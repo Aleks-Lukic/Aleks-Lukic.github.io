@@ -347,11 +347,6 @@ footer {
 	position: absolute;
 }
 
-/* Needed for mobile */
-footermedia {
-	display: none;
-}
-
 /* Mobile layout */
 @media (max-width: 800px) {
 	desktop {
