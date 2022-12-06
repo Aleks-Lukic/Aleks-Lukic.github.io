@@ -395,14 +395,17 @@
 	
 	
 	<script>
-		fetch('https://ipinfo.io/json').then((response) => response.json()).then((data) => {         
-			if(data.country === "DE"){
-				window.location.href = 'https://www.savashelter.org/de/';
-			}
-			else if(data.country === "BA" || data.country === "RS" || data.country === "ME" || data.country === "HR"){
-				window.location.href = 'https://www.savashelter.org/sr/';
-			}
-		}); 
+		if (sessionStorage.getItem("lang") === null) {
+			fetch('https://ipinfo.io/json').then((response) => response.json()).then((data) => {         
+				if(data.country === "DE"){
+					window.location.href = 'https://www.savashelter.org/de/';
+				}
+				else if(data.country === "BA" || data.country === "RS" || data.country === "ME" || data.country === "HR"){
+					window.location.href = 'https://www.savashelter.org/sr/';
+				}
+				sessionStorage.setItem("lang", "done");
+			}); 
+		}
 	</script>
 	
 </body>
