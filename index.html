@@ -393,5 +393,18 @@
 		);
 	</script>
 	
+	<script>
+		fetch('https://ipinfo.io/json').then((res) => {
+			res.json().then((data) => {         
+				if(data.country === "DE"){
+					window.location.href = 'https://www.savashelter.org/de/';
+				}
+				if(data.country === "BA" || data.country === "RS" || data.country === "ME" || data.country === "HR"){
+					window.location.href = 'https://www.savashelter.org/sr/';
+				}
+			});
+		});    
+	</script>
+	
 </body>
 </html>
