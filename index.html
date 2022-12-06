@@ -398,12 +398,13 @@
 		if (sessionStorage.getItem("lang") === null) {
 			fetch('https://ipinfo.io/json').then((response) => response.json()).then((data) => {         
 				if(data.country === "DE"){
+					sessionStorage.setItem("lang", "done");
 					window.location.href = 'https://www.savashelter.org/de/';
 				}
 				else if(data.country === "BA" || data.country === "RS" || data.country === "ME" || data.country === "HR"){
+					sessionStorage.setItem("lang", "done");
 					window.location.href = 'https://www.savashelter.org/sr/';
 				}
-				sessionStorage.setItem("lang", "done");
 			}); 
 		}
 	</script>
