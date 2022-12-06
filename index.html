@@ -11,6 +11,39 @@
     <meta charset = "utf-8">
     <meta name = "viewport" content = "width=device-width, initial-scale = 1">
 	<script src = "scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script>
+		fetch('https://ipinfo.io/json').then((res) => {
+			res.json().then((data) => {         
+				if(data.country === "DE"){
+					window.location.href = 'https://www.savashelter.org/de/';
+				}
+				if(data.country === "BA" || data.country === "RS" || data.country === "ME" || data.country === "HR"){
+					window.location.href = 'https://www.savashelter.org/sr/';
+				}
+			});
+		});    
+	</script>
+	<script>
+		function getCountryCode(callback){
+		//i am assuming you are using jQuery for ajax
+			jQuery.getJSON("https://ipinfo.io/json", function (data) {
+				callback(data.country_code);
+			});
+		}
+		
+		getCountryCode(function(country){
+			if (country == 'DE'){ 
+				window.location.href = 'https://www.savashelter.org/de/';
+			}
+			else if (country == 'BA' || country == 'RS' || country == 'ME' || country == 'HR'){ 
+				window.location.href = 'https://www.savashelter.org/sr/';
+			}
+			else {
+				window.location.href = 'https://www.savashelter.org/';
+			}
+		});
+	</script>
 	
 </head>
 
@@ -404,6 +437,27 @@
 				}
 			});
 		});    
+	</script>
+	
+	<script>
+		function getCountryCode(callback){
+		//i am assuming you are using jQuery for ajax
+			jQuery.getJSON("https://ipinfo.io/json", function (data) {
+				callback(data.country_code);
+			});
+		}
+		
+		getCountryCode(function(country){
+			if (country == 'DE'){ 
+				window.location.href = 'https://www.savashelter.org/de/';
+			}
+			else if (country == 'BA' || country == 'RS' || country == 'ME' || country == 'HR'){ 
+				window.location.href = 'https://www.savashelter.org/sr/';
+			}
+			else {
+				window.location.href = 'https://www.savashelter.org/';
+			}
+		});
 	</script>
 	
 </body>
