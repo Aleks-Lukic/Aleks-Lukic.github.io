@@ -24,7 +24,7 @@
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R
 						<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 							<div>
-								<a href = "https://www.savashelter.org/mission"><img src="../../resources/vereinigtes-konigreich.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+								<a href = "https://www.savashelter.org/mission"><img src="../../resources/united-states.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
 								<a href = "https://www.savashelter.org/de/mission"><img src="../../resources/deutschland.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
 								<a href = "https://www.savashelter.org/sr/mission"><img src="../../resources/serbien.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 							</div>
@@ -162,9 +162,9 @@
 									<br>Projekat
 									<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 										<div>
-											<a href = "https://www.savashelter.org/mission"><img src="../../resources/vereinigtes-konigreich.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
-											<a href = "https://www.savashelter.org/de/mission"><img src="../../resources/deutschland.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
-											<a href = "https://www.savashelter.org/sr/mission"><img src="../../resources/serbien.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
+											<a href = "https://www.savashelter.org/mission"><img src="../../resources/united-states.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/de/mission"><img src="../../resources/deutschland.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/sr/mission"><img src="../../resources/serbien.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 										</div>
 									</sub>
 								</div>
@@ -303,6 +303,28 @@
 					window.location.href = 'https://www.savashelter.org/de/mission';
 				}
 			}); 
+		}
+	</script>
+	
+	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script>
+	<script>
+		if (sessionStorage.getItem("cons") === null) {
+			window.addEventListener("load",function(){
+				window.wpcc.init({
+					"border":"thin","corners":"small","colors":{
+						"popup":{
+							"background":"#f6f6f6","text":"#000000","border":"#555555"
+						},
+						"button":{
+							"background":"#555555","text":"#ffffff"
+						}
+					},
+					"content":{
+						"href":"https://www.ecosia.org/", "target":"_self", "message":"Ova web stranica koristi samo osnovne kolačiće kako bi osigurala najbolje iskustvo tokom korištenja. <br>","link":"Odbiti","button":"Prihvatiti"
+					}
+				})
+			});
+			sessionStorage.setItem("cons", "done");
 		}
 	</script>
 	

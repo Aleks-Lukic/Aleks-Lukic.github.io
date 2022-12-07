@@ -24,7 +24,7 @@
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R
 						<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 							<div>
-								<a href = "https://www.savashelter.org/help"><img src="../../resources/vereinigtes-konigreich.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+								<a href = "https://www.savashelter.org/help"><img src="../../resources/united-states.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
 								<a href = "https://www.savashelter.org/de/help"><img src="../../resources/deutschland.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
 								<a href = "https://www.savashelter.org/sr/help"><img src="../../resources/serbien.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 							</div>
@@ -70,6 +70,7 @@
 						3. Spende einen kleinen Betrag auf eines der folgenden Organisationskonten. Schon die kleinste Spende hilft uns!<br>
 						</p><br><br><br><br>
 						
+						<a name="donation"></a>
 						<p style="font-size: 4.6vh; color: #233A59">Bankverbindung</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
 						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br><br><b>Oder nutze einen der folgenden Links:</b></p>
 						<br><br>
@@ -114,9 +115,9 @@
 									<br>Hilf uns
 									<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 										<div>
-											<a href = "https://www.savashelter.org/help"><img src="../../resources/vereinigtes-konigreich.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
-											<a href = "https://www.savashelter.org/de/help"><img src="../../resources/deutschland.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
-											<a href = "https://www.savashelter.org/sr/help"><img src="../../resources/serbien.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
+											<a href = "https://www.savashelter.org/help"><img src="../../resources/united-states.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/de/help"><img src="../../resources/deutschland.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/sr/help"><img src="../../resources/serbien.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 										</div>
 									</sub>
 								</div>
@@ -149,6 +150,7 @@
 						3. Spende einen kleinen Betrag auf eines der folgenden Organisationskonten. Schon die kleinste Spende hilft uns!<br>
 						</p><br><br><br><br>
 						
+						<a name="donation_2"></a>
 						<p style="font-size: 4vh; color: #233A59">Bankverbindung</p><hr style="width:50%; border: 0.1vh solid #233A59;"><br>
 						<p style="font-size: 3.1vh; color: #233A59">Sava Shelter e.V.<br>IBAN DE41&nbsp;8306&nbsp;5408&nbsp;0005&nbsp;2714&nbsp;52<br>BIC	GENODEF1SLR<br><br><br><br><b>Oder nutze einen der folgenden Links:</b></p>
 						<br><br>
@@ -236,6 +238,28 @@
 					window.location.href = 'https://www.savashelter.org/sr/help';
 				}
 			}); 
+		}
+	</script>
+	
+	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script>
+	<script>
+		if (sessionStorage.getItem("cons") === null) {
+			window.addEventListener("load",function(){
+				window.wpcc.init({
+					"border":"thin","corners":"small","colors":{
+						"popup":{
+							"background":"#f6f6f6","text":"#000000","border":"#555555"
+						},
+						"button":{
+							"background":"#555555","text":"#ffffff"
+						}
+					},
+					"content":{
+						"href":"https://www.ecosia.org/", "target":"_self", "message":"Diese Website verwendet nur essentielle Cookies, um die beste Erfahrung bei der Nutzung sicherzustellen. <br>","link":"Ablehnen","button":"Verstanden!"
+					}
+				})
+			});
+			sessionStorage.setItem("cons", "done");
 		}
 	</script>
 	

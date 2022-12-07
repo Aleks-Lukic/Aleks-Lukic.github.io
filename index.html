@@ -27,7 +27,7 @@
 									&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R
 									<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 										<div>
-											<a href = "https://www.savashelter.org"><img src="resources/vereinigtes-konigreich.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org"><img src="resources/united-states.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
 											<a href = "https://www.savashelter.org/de"><img src="resources/deutschland.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
 											<a href = "https://www.savashelter.org/sr"><img src="resources/serbien.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 										</div>
@@ -160,9 +160,9 @@
 									<br>Savashelter
 									<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 										<div>
-											<a href = "https://www.savashelter.org"><img src="resources/vereinigtes-konigreich.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
-											<a href = "https://www.savashelter.org/de"><img src="resources/deutschland.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
-											<a href = "https://www.savashelter.org/sr"><img src="resources/serbien.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
+											<a href = "https://www.savashelter.org"><img src="resources/united-states.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/de"><img src="resources/deutschland.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/sr"><img src="resources/serbien.png" style="width:7vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 										</div>
 									</sub>
 								</div>
@@ -226,7 +226,7 @@
 				<div id = "text" style="border-top: 0.3vh solid grey;">
 					<div id = "textholder" style="width: 90%; margin-left:5%; margin-right:5%; font-size: 3.2vh; min-height:100vh;">
 						<br><br><br>
-						<center>&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;<a href = "https://www.savashelter.org/help#donation" style="color: white"><button class="btn btn-slide-bottom btn-slide-bottom--green"> <span>Donate now!</span> </button></a>&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;</center>
+						<center>&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;<a href = "https://www.savashelter.org/help#donation_2" style="color: white"><button class="btn btn-slide-bottom btn-slide-bottom--green"> <span>Donate now!</span> </button></a>&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;</center>
 						<br><br>
 						<p style="font-size: 3.5vh; color: #233A59;">Hi, my name is Aleks!</p><br>
 						<p style="text-align:justify !important;">I am 35 years old and originally from Croatia. A large part of my family still lives in the countries of the former Yugoslavia. 
@@ -397,21 +397,23 @@
 	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script>
 	<script>
 		if (sessionStorage.getItem("cons") === null) {
-			window.addEventListener("load",function(){
-				window.wpcc.init({
-					"border":"thin","corners":"small","colors":{
-						"popup":{
-							"background":"#f6f6f6","text":"#000000","border":"#555555"
+			window.addEventListener("load", 
+				function(){
+					window.wpcc.init({
+						"border":"thin","corners":"small","colors":{
+							"popup":{
+								"background":"#f6f6f6","text":"#000000","border":"#555555"
+							},
+							"button":{
+								"background":"#555555","text":"#ffffff"
+							}
 						},
-						"button":{
-							"background":"#555555","text":"#ffffff"
+						"content":{
+							"href":"https://www.ecosia.org/", "target":"_self", "message":"This website only uses essential cookies to ensure you get the best experience on our website. <br>","link":"Reject","button id = 'cookie_button'":"Got it!"
 						}
-					},
-					"content":{
-						"href":"https://www.ecosia.org/", "target":"_self", "message":"This website only uses essential cookies to ensure you get the best experience on our website. <br>","link":"Reject","button":"Got it!"
-					}
-				})
-			});
+					})
+				}
+			);
 			sessionStorage.setItem("cons", "done");
 		}
 	</script>
