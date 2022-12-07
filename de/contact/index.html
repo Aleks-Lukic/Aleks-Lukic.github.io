@@ -199,10 +199,9 @@
 	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script>
 	<script>
 		var startTime = Date.now();
-		while ((Date.now() - startTime) < 4000) {
-		}
 		
 		if (sessionStorage.getItem("cons") === null) {
+			while ((Date.now() - startTime) < 2000) {}
 			window.addEventListener("load", cookieFunction);
 		}
 		
