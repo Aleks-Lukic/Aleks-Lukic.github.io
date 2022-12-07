@@ -27,11 +27,9 @@
 									&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R
 									<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 										<div>
-											<a href = "https://www.savashelter.org">en</a> 
-												| 
-											<a href = "https://www.savashelter.org/de">de</a>
-												| 
-											<a href = "https://www.savashelter.org/sr">sr</a>
+											<a href = "https://www.savashelter.org"><img src="resources/vereinigtes-konigreich.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/de"><img src="resources/deutschland.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/sr"><img src="resources/serbien.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 										</div>
 									</sub>
 								</div>
@@ -104,7 +102,9 @@
 			<!-- <div id = "gradbackground" class = "two" style="border: solid black;"> -->
 				<div id = "text" style="border-top: 0.3vh solid grey">
 					<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 3.2vh; min-height:100vh">
-						<br><br><br>
+						<br><br>
+						<center>&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;<button class="btn btn-slide-bottom btn-slide-bottom--green"><b href = "https://www.savashelter.org/help#donation" style="color: white"> <span>Donate now!</span> </b></button>&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;</center>
+						<br><br>
 						<p style="font-size: 4vh; color: #233A59;">Hi, my name is Aleks!</p><hr style="width:50%; border: 0.1vh solid #233A59"><br>
 						<p style="text-align:justify !important;">I am 35 years old and originally from Croatia. A large part of my family still lives in the countries of the former Yugoslavia. 
 							Every time my wife Lima and I visit, we are shocked at how many dogs are sick, living on the streets, having discarded food, being hit by people and run 
@@ -161,11 +161,9 @@
 										<br>Savashelter
 										<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 											<div>
-												<a href = "https://www.savashelter.org">en</a> 
-													| 
-												<a href = "https://www.savashelter.org/de">de</a>
-													| 
-												<a href = "https://www.savashelter.org/sr">sr</a>
+												<a href = "https://www.savashelter.org"><img src="resources/vereinigtes-konigreich.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+												<a href = "https://www.savashelter.org/de"><img src="resources/deutschland.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+												<a href = "https://www.savashelter.org/sr"><img src="resources/serbien.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 											</div>
 										</sub>
 									</nobr>
@@ -229,7 +227,9 @@
 			<!-- <div id = "gradbackground" class = "two" style="border: solid black;"> -->
 				<div id = "text" style="border-top: 0.3vh solid grey;">
 					<div id = "textholder" style="width: 90%; margin-left:5%; margin-right:5%; font-size: 3.2vh; min-height:100vh;">
-						<br><br><br><br><br><br><br>
+						<br><br>
+						<center>&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;<button class="btn btn-slide-bottom btn-slide-bottom--green"><b href = "https://www.savashelter.org/help#donation" style="color: white"> <span>Donate now!</span> </b></button>&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;</center>
+						<br><br>
 						<p style="font-size: 3.5vh; color: #233A59;">Hi, my name is Aleks!</p><br>
 						<p style="text-align:justify !important;">I am 35 years old and originally from Croatia. A large part of my family still lives in the countries of the former Yugoslavia. 
 							Every time my wife Lima and I visit, we are shocked at how many dogs are sick, living on the streets, having discarded food, being hit by people and run 
@@ -250,18 +250,6 @@
 							<iframe id=remarkbox-iframe src="https://my.remarkbox.com/embed?nojs=true" style="height:600px;width: 100%; border:none!important" tabindex=0></iframe>
 						</noscript>
 					</div><br><br><br><br>
-					
-					<!--
-					<div id = "textholder" style="width: 90%; margin-left:5%; margin-right:5%; font-size: 2.8vh;">
-						<script src = "https://utteranc.es/client.js"
-							repo = "Aleks-Lukic/Aleks-Lukic.github.io"
-							issue-term = "pathname"
-							theme = "github-light"
-							crossorigin = "anonymous"
-							async>
-						</script><br><br>
-					</div>
-					-->
 
 				</div>
 			<!-- </div> -->
@@ -393,20 +381,38 @@
 		);
 	</script>
 	
-	
 	<script>
 		if (sessionStorage.getItem("lang") === null) {
 			fetch('https://ipinfo.io/json').then((response) => response.json()).then((data) => {         
 				if(data.country === "DE"){
 					sessionStorage.setItem("lang", "done");
-					window.location.href = 'https://www.savashelter.org/de/';
+					window.location.href = 'https://www.savashelter.org/de/mission';
 				}
 				else if(data.country === "BA" || data.country === "RS" || data.country === "ME" || data.country === "HR"){
 					sessionStorage.setItem("lang", "done");
-					window.location.href = 'https://www.savashelter.org/sr/';
+					window.location.href = 'https://www.savashelter.org/sr/mission';
 				}
 			}); 
 		}
+	</script>
+	
+	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script>
+	<script>
+		window.addEventListener("load",function(){
+			window.wpcc.init({
+				"border":"thin","corners":"small","colors":{
+					"popup":{
+						"background":"#f6f6f6","text":"#000000","border":"#555555"
+					},
+					"button":{
+						"background":"#555555","text":"#ffffff"
+					}
+				},
+				"content":{
+					"href":"https://www.ecosia.org/", "target":"_self", "message":"This website only uses essential cookies to ensure you get the best experience on our website. <br>","link":"Reject","button":"Got it!"
+				}
+			})
+		});
 	</script>
 	
 </body>

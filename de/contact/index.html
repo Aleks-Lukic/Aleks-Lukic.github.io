@@ -25,11 +25,9 @@
 						&nbsp;S&nbsp;A&nbsp;V&nbsp;A&nbsp;S&nbsp;H&nbsp;E&nbsp;L&nbsp;T&nbsp;E&nbsp;R
 						<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 							<div>
-								<a href = "https://www.savashelter.org/contact" style = "color:#233A59;">en</a> 
-									| 
-								<a href = "https://www.savashelter.org/de/contact" style = "color:#233A59;">de</a>
-									| 
-								<a href = "https://www.savashelter.org/sr/contact" style = "color:#233A59;">sr</a>
+								<a href = "https://www.savashelter.org"><img src="../../resources/vereinigtes-konigreich.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+								<a href = "https://www.savashelter.org/de"><img src="../../resources/deutschland.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+								<a href = "https://www.savashelter.org/sr"><img src="../../resources/serbien.png" style="width:1.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 							</div>
 						</sub>
 					</div>
@@ -118,11 +116,9 @@
 										<br>Kontakt
 										<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
 											<div>
-												<a href = "https://www.savashelter.org/contact">en</a> 
-													| 
-												<a href = "https://www.savashelter.org/de/contact">de</a>
-													| 
-												<a href = "https://www.savashelter.org/sr/contact">sr</a>
+												<a href = "https://www.savashelter.org"><img src="../../resources/vereinigtes-konigreich.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+												<a href = "https://www.savashelter.org/de"><img src="../../resources/deutschland.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+												<a href = "https://www.savashelter.org/sr"><img src="../../resources/serbien.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
 											</div>
 										</sub>
 									</nobr>
@@ -185,6 +181,22 @@
 		</footer>
 		
 	</mobile>
+	
+	
+	<script>
+		if (sessionStorage.getItem("lang") === null) {
+			fetch('https://ipinfo.io/json').then((response) => response.json()).then((data) => {         
+				if(data.country === "EN"){
+					sessionStorage.setItem("lang", "done");
+					window.location.href = 'https://www.savashelter.org/en/contact';
+				}
+				else if(data.country === "BA" || data.country === "RS" || data.country === "ME" || data.country === "HR"){
+					sessionStorage.setItem("lang", "done");
+					window.location.href = 'https://www.savashelter.org/sr/contact';
+				}
+			}); 
+		}
+	</script>
 	
 </body>
 </html>

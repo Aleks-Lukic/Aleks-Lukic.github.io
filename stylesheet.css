@@ -347,6 +347,57 @@ footer {
 	position: absolute;
 }
 
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+} 
+ 
+.btn:hover .btn-slide-show-text1 {
+  margin-left: 65px;
+} 
+ 
+.btn-slide-bottom {
+  display: block;
+  cursor: pointer;
+  border: medium none;
+  text-align: center;
+  overflow: hidden;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #233A59;
+  opacity: 0.9;
+  padding: 20px 45px;
+  transition: all 0.5s ease-in-out 0s;
+  position: relative;
+} 
+
+.btn-slide-bottom span {
+  position: relative;
+  z-index: 1;
+} 
+ 
+.btn-slide-bottom::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 490%;
+  width: 140%;
+  transition: all 0.5s ease-in-out 0s;
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+} 
+ 
+.btn-slide-bottom:hover::after {
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+} 
+ 
+.btn-slide-bottom--green::after {
+  background: green none repeat scroll 0% 0%;
+} 
+
+
 /* Mobile layout */
 @media (max-width: 800px) {
 	desktop {
