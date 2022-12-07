@@ -103,7 +103,7 @@
 				<div id = "text" style="border-top: 0.3vh solid grey">
 					<div id = "textholder" style="width: 50%; margin-left:25%; margin-right:25%; font-size: 3.2vh; min-height:100vh">
 						<br><br>
-						<center>&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;<button class="btn btn-slide-bottom btn-slide-bottom--green"><b href = "https://www.savashelter.org/help#donation" style="color: white"> <span>Donate now!</span> </b></button>&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;</center>
+						<center>&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;<a href = "https://www.savashelter.org/help#donation" style="color: white"><button class="btn btn-slide-bottom btn-slide-bottom--green"> <span>Donate now!</span> </button></a>&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;</center>
 						<br><br>
 						<p style="font-size: 4vh; color: #233A59;">Hi, my name is Aleks!</p><hr style="width:50%; border: 0.1vh solid #233A59"><br>
 						<p style="text-align:justify !important;">I am 35 years old and originally from Croatia. A large part of my family still lives in the countries of the former Yugoslavia. 
@@ -153,20 +153,18 @@
 		<section>
 			<div id = "gradbackground" class = "three">
 				<div id = "holder">
-					<div id = "header" style = "font-size: 3.4vh">
+					<div id = "header" style = "font-size: 4vh">
 						<h1>
 							<div id = "textdefault">
 								<div>
-									<nobr>
-										<br>Savashelter
-										<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
-											<div>
-												<a href = "https://www.savashelter.org"><img src="resources/vereinigtes-konigreich.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
-												<a href = "https://www.savashelter.org/de"><img src="resources/deutschland.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
-												<a href = "https://www.savashelter.org/sr"><img src="resources/serbien.png" style="width:4.5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
-											</div>
-										</sub>
-									</nobr>
+									<br>Savashelter
+									<sub style="font-size:2.5vh; align:bottom; margin-left:1vw; margin-top:10vh;">
+										<div>
+											<a href = "https://www.savashelter.org"><img src="resources/vereinigtes-konigreich.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/de"><img src="resources/deutschland.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>&nbsp;&nbsp;
+											<a href = "https://www.savashelter.org/sr"><img src="resources/serbien.png" style="width:5vw; height:auto; border-radius: 50%; border: 0.1vh solid black"></a>
+										</div>
+									</sub>
 								</div>
 							</div><br>
 							<img src="resources/SS_android-chrome-512x512.png" style="width:30vw;"><br>
@@ -227,8 +225,8 @@
 			<!-- <div id = "gradbackground" class = "two" style="border: solid black;"> -->
 				<div id = "text" style="border-top: 0.3vh solid grey;">
 					<div id = "textholder" style="width: 90%; margin-left:5%; margin-right:5%; font-size: 3.2vh; min-height:100vh;">
-						<br><br>
-						<center>&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;<button class="btn btn-slide-bottom btn-slide-bottom--green"><b href = "https://www.savashelter.org/help#donation" style="color: white"> <span>Donate now!</span> </b></button>&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;</center>
+						<br><br><br>
+						<center>&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;<a href = "https://www.savashelter.org/help#donation" style="color: white"><button class="btn btn-slide-bottom btn-slide-bottom--green"> <span>Donate now!</span> </button></a>&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;</center>
 						<br><br>
 						<p style="font-size: 3.5vh; color: #233A59;">Hi, my name is Aleks!</p><br>
 						<p style="text-align:justify !important;">I am 35 years old and originally from Croatia. A large part of my family still lives in the countries of the former Yugoslavia. 
@@ -386,11 +384,11 @@
 			fetch('https://ipinfo.io/json').then((response) => response.json()).then((data) => {         
 				if(data.country === "DE"){
 					sessionStorage.setItem("lang", "done");
-					window.location.href = 'https://www.savashelter.org/de/mission';
+					window.location.href = 'https://www.savashelter.org/de/';
 				}
 				else if(data.country === "BA" || data.country === "RS" || data.country === "ME" || data.country === "HR"){
 					sessionStorage.setItem("lang", "done");
-					window.location.href = 'https://www.savashelter.org/sr/mission';
+					window.location.href = 'https://www.savashelter.org/sr/';
 				}
 			}); 
 		}
@@ -398,21 +396,24 @@
 	
 	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script>
 	<script>
-		window.addEventListener("load",function(){
-			window.wpcc.init({
-				"border":"thin","corners":"small","colors":{
-					"popup":{
-						"background":"#f6f6f6","text":"#000000","border":"#555555"
+		if (sessionStorage.getItem("cons") === null) {
+			window.addEventListener("load",function(){
+				window.wpcc.init({
+					"border":"thin","corners":"small","colors":{
+						"popup":{
+							"background":"#f6f6f6","text":"#000000","border":"#555555"
+						},
+						"button":{
+							"background":"#555555","text":"#ffffff"
+						}
 					},
-					"button":{
-						"background":"#555555","text":"#ffffff"
+					"content":{
+						"href":"https://www.ecosia.org/", "target":"_self", "message":"This website only uses essential cookies to ensure you get the best experience on our website. <br>","link":"Reject","button":"Got it!"
 					}
-				},
-				"content":{
-					"href":"https://www.ecosia.org/", "target":"_self", "message":"This website only uses essential cookies to ensure you get the best experience on our website. <br>","link":"Reject","button":"Got it!"
-				}
-			})
-		});
+				})
+			});
+			sessionStorage.setItem("cons", "done");
+		}
 	</script>
 	
 </body>
