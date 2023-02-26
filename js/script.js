@@ -1,10 +1,10 @@
 $(document).ready(function () {
     $("body").queryLoader2({
-        barColor: "#FFFFFF",
-        backgroundColor: "#02356a",
-        percentage: true,
-        barHeight: 1,
-        completeAnimation: "grow",
-        minimumTime: 100
+        barColor: '#efefef',
+		backgroundColor: '#111',
+		percentage: true,
+		barHeight: 1,
+		minimumTime: 200,
+		fadeOutTime: 1000,
     });
 });
